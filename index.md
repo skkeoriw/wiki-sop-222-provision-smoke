@@ -1,9 +1,10 @@
 # YouTube Video Research Wiki
 Last updated: 2026-06-07
-Total pages: 11
+Total pages: 2
 
 ## Sources
 - [[never-gonna-give-you-up-核心承诺与关系稳定性深度简报]]
+- [[关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心]]
 - [[rick-astley-never-gonna-give-you-up-核心主旨与情感承诺简报]]
 
 ## Entities
@@ -33,6 +34,7 @@ Total pages: 11
 - [[情感透明度]]
 - [[绝对忠诚观]]
 - [[情感忠诚]]
+- [[完全承诺]]
 - [[主动情感表达]]
 - [[默契]]
 - [[沟通延迟]]

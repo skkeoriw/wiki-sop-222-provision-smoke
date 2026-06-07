@@ -287,11 +287,15 @@
     }
   ],
   "estimated_llm_calls": 3,
-  "actual_llm_calls": 1,
-  "prompt_tokens": 2012,
-  "completion_tokens": 2325,
-  "generated_pages": [],
+  "actual_llm_calls": 4,
+  "prompt_tokens": 4319,
+  "completion_tokens": 4828,
+  "generated_pages": [
+    "wiki/concepts/完全承诺.md",
+    "wiki/sources/关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心.md"
+  ],
   "failed_pages": [],
-  "status": "running",
-  "updated_at": "2026-06-07T14:11:00Z"
+  "status": "done",
+  "updated_at": "2026-06-07T14:11:10Z",
+  "generated_pages_count": 2
 }

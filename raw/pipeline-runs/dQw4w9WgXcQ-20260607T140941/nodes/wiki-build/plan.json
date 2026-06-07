@@ -1,0 +1,297 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260607T140941",
+  "run_id": "direct-wiki-build-1780841452",
+  "selected_sources": [
+    {
+      "title": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心",
+      "slug": "关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [
+    {
+      "name": "完全承诺",
+      "slug": "完全承诺",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告的核心概念，描述了关系中的深度投入。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "rick-astley.md",
+      "reason": "已在现有 wiki 清单中存在。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "已在现有 wiki 清单中存在。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感稳定性",
+      "slug": "关系稳定性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "关系稳定性.md",
+      "reason": "与现有 wiki 清单中的“关系稳定性”语义相同。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "负面行为排除",
+      "slug": "负面清单承诺",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "负面清单承诺.md",
+      "reason": "与现有 wiki 清单中的“负面清单承诺”语义高度相关，指代明确的行为红线。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚框架",
+      "slug": "忠诚度",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "忠诚度.md",
+      "reason": "报告中描述的忠诚体系，与“忠诚度”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感透明度.md",
+      "reason": "已在现有 wiki 清单中存在。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期认知",
+      "slug": "长期价值",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "长期价值.md",
+      "reason": "报告中提到承诺基于“长期认知”，与“长期价值”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "相互理解",
+      "slug": "默契",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "默契.md",
+      "reason": "报告中提及“相互理解”是承诺的基础，与“默契”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性",
+      "slug": "排他性忠诚",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "排他性忠诚.md",
+      "reason": "已在现有 wiki 清单中存在。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "独特性",
+      "slug": "排他性忠诚",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "排他性忠诚.md",
+      "reason": "报告中强调承诺的“独一无二性”，与“排他性忠诚”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长久性",
+      "slug": "持久性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "持久性.md",
+      "reason": "已在现有 wiki 清单中存在。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不放弃",
+      "slug": "全方位承诺",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "全方位承诺.md",
+      "reason": "“不放弃”是“全方位承诺”的具体体现。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不失望",
+      "slug": "言行一致",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "言行一致.md",
+      "reason": "“不失望”是承诺兑现的表现，与“言行一致”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不逃避",
+      "slug": "逃避或遗弃",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "逃避或遗弃.md",
+      "reason": "已在现有 wiki 清单中存在，报告中强调“不逃避”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不抛弃",
+      "slug": "逃避或遗弃",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "逃避或遗弃.md",
+      "reason": "已在现有 wiki 清单中存在，报告中强调“不抛弃”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不伤害",
+      "slug": "情感保护",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "情感保护.md",
+      "reason": "“不伤害”是情感保护的一种具体行为，与“情感保护”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不欺骗",
+      "slug": "诚实性",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "诚实性.md",
+      "reason": "“不欺骗”是诚实性的体现，与“诚实性”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "敏锐的共情能力",
+      "slug": "感知与表达的鸿沟",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "感知与表达的鸿沟.md",
+      "reason": "报告中描述的“敏锐的共情能力”有助于跨越“感知与表达的鸿沟”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "消除沟通障碍",
+      "slug": "沟通的紧迫性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "沟通的紧迫性.md",
+      "reason": "报告中强调“消除沟通障碍”，与“沟通的紧迫性”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "主动表达感受",
+      "slug": "主动情感表达",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "主动情感表达.md",
+      "reason": "已在现有 wiki 清单中存在。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期互动",
+      "slug": "长期承诺",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "长期承诺.md",
+      "reason": "报告中将关系比作“游戏”，强调“长期互动”，与“长期承诺”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行为指南",
+      "slug": "言行一致",
+      "action": "merge",
+      "importance_score": 0.6,
+      "merge_target": "言行一致.md",
+      "reason": "报告总结的“行为指南”强调了“言行一致”的重要性。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "建立安全感",
+      "slug": "信任积累",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "信任积累.md",
+      "reason": "通过重申承诺来“建立安全感”，与“信任积累”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "突破情感瓶颈",
+      "slug": "沟通的紧迫性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "沟通的紧迫性.md",
+      "reason": "“突破情感瓶颈”需要“沟通的紧迫性”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "可预测的正向行为",
+      "slug": "可靠性",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "可靠性.md",
+      "reason": "“可预测的正向行为”是“可靠性”的具体体现。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "深化承诺",
+      "slug": "长期积淀",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "长期积淀.md",
+      "reason": "“深化承诺”是“长期积淀”的结果。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    }
+  ],
+  "estimated_llm_calls": 3,
+  "actual_llm_calls": 1,
+  "prompt_tokens": 2012,
+  "completion_tokens": 2325,
+  "generated_pages": [],
+  "failed_pages": [],
+  "status": "running",
+  "updated_at": "2026-06-07T14:11:00Z"
+}

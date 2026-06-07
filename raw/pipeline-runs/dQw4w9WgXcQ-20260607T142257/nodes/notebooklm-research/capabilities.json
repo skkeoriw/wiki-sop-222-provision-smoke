@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "❌ Stage B 失败  [dQw4w9WgXcQ-20260607T142257]\n   🔬 NotebookLM 研究\n🎬 Rick Astley - Never Gonna Give You Up (Official Video) (4K R\n   错误：forced notebooklm fallback; fallback failed with exit 1",
+    "sent_at": "2026-06-07T14:23:05Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

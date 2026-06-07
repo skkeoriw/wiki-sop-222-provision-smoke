@@ -1,0 +1,4 @@
+{"ts": "2026-06-07T14:23:04Z", "event": "tg_notify_sent", "stage": "notebooklm-research", "trigger": "start", "ok": true}
+{"ts": "2026-06-07T14:23:04Z", "event": "stage_start", "stage": "notebooklm-research", "pipeline": "youtube-research-wiki"}
+{"ts": "2026-06-07T14:23:06Z", "event": "tg_notify_sent", "stage": "notebooklm-research", "trigger": "failed", "ok": true}
+{"ts": "2026-06-07T14:23:06Z", "event": "stage_failed", "stage": "notebooklm-research", "pipeline": "youtube-research-wiki", "error": "forced notebooklm fallback; fallback failed with exit 1"}

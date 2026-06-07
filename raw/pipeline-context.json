@@ -34,5 +34,22 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780855319"
+  "fallback_run_id": "direct-notebooklm-research-1780855319",
+  "stage_b_fetch": {
+    "run_id": "direct-1780857841",
+    "video_id": "dQw4w9WgXcQ",
+    "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+    "author": "Rick Astley",
+    "published_at": "2009-10-25T06:57:33Z",
+    "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/dQw4w9WgXcQ.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+      "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "author": "Rick Astley"
+    }
+  }
 }

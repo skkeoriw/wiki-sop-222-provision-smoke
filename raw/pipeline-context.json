@@ -34,5 +34,22 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780855305"
+  "fallback_run_id": "direct-notebooklm-research-1780855305",
+  "stage_b_fetch": {
+    "run_id": "direct-1780855314",
+    "video_id": "3JZ_D3ELwOQ",
+    "title": "Flexin' On Ya (2014)",
+    "author": "Ray William Johnson",
+    "published_at": "2014-02-12T02:49:55Z",
+    "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+    "thumbnail": "https://i.ytimg.com/vi/3JZ_D3ELwOQ/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/3JZ_D3ELwOQ.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "Flexin' On Ya (2014)",
+      "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+      "author": "Ray William Johnson"
+    }
+  }
 }

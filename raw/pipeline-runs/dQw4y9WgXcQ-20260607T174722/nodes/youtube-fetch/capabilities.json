@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "❌ Stage A 失败  [dQw4y9WgXcQ-20260607T174722]\n   🔍 YouTube 元数据获取\n🔗 https://www.youtube.com/watch?v=dQw4y9WgXcQ\n   错误：fetch_youtube_metadata failed",
+    "sent_at": "2026-06-07T17:47:26Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

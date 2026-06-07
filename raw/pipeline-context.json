@@ -30,5 +30,22 @@
     },
     "chunks_total": 4,
     "chunks_done": 4
+  },
+  "stage_b_fetch": {
+    "run_id": "direct-1780842851",
+    "video_id": "jNQXAC9IVRw",
+    "title": "Me at the zoo",
+    "author": "jawed",
+    "published_at": "2005-04-24T03:31:52Z",
+    "youtube_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+    "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/jNQXAC9IVRw.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "Me at the zoo",
+      "youtube_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "author": "jawed"
+    }
   }
 }

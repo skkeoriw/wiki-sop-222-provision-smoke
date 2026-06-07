@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage A 完成  2s  [3JZ_D3ELwOQ-20260607T180153]\n   🔍 YouTube 元数据获取\n   🎬 Flexin' On Ya (2014)\n   👤 Ray William Johnson\n   📦 raw/youtube-metadata\n   🎬 Flexin' On Ya (2014)",
+    "sent_at": "2026-06-07T18:01:58Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

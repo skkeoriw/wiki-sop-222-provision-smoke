@@ -1,0 +1,55 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+  "source_type": "youtube",
+  "pipeline_id": "3JZ_D3ELwOQ-20260607T180153",
+  "test_overrides": {
+    "force_notebooklm_fallback": true
+  },
+  "stage_deep_research": {
+    "run_id": "direct-youtube-deep-research-1780843040",
+    "job_id": "c0adeabd-bdf3-4781-97e6-71f99b66ce3d",
+    "status": "completed",
+    "start_time": "",
+    "end_time": "2026-06-07T14:38:35Z",
+    "output_files": [
+      "raw/youtube-deep-research/9bZkp7q19f0-20260607T143714/analysis.md",
+      "raw/youtube-deep-research/9bZkp7q19f0-20260607T143714/status.json",
+      "raw/notebooklm-analysis/PSY---GANGNAM-STYLE-강남스타일-M-V-youtube-deep-research.md"
+    ],
+    "worker_files": {
+      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript",
+      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?format=txt",
+      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?format=srt",
+      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?format=vtt",
+      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?format=csv",
+      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?format=md",
+      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?translated=1",
+      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?format=srt&translated=1",
+      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?format=vtt&translated=1",
+      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c0adeabd-bdf3-4781-97e6-71f99b66ce3d/transcript?format=txt&translated=1"
+    },
+    "chunks_total": 1,
+    "chunks_done": 1
+  },
+  "fallback_used": true,
+  "fallback_mode": "local-metadata",
+  "fallback_reason": "forced notebooklm fallback",
+  "fallback_run_id": "direct-notebooklm-research-1780855305",
+  "stage_b_fetch": {
+    "run_id": "direct-1780855314",
+    "video_id": "3JZ_D3ELwOQ",
+    "title": "Flexin' On Ya (2014)",
+    "author": "Ray William Johnson",
+    "published_at": "2014-02-12T02:49:55Z",
+    "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+    "thumbnail": "https://i.ytimg.com/vi/3JZ_D3ELwOQ/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/3JZ_D3ELwOQ.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "Flexin' On Ya (2014)",
+      "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+      "author": "Ray William Johnson"
+    }
+  }
+}

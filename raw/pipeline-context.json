@@ -34,7 +34,7 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780855305",
+  "fallback_run_id": "direct-notebooklm-research-1780855319",
   "stage_b_fetch": {
     "run_id": "direct-1780855314",
     "video_id": "3JZ_D3ELwOQ",
@@ -46,10 +46,57 @@
     "meta_file": "raw/youtube-metadata/3JZ_D3ELwOQ.json"
   },
   "stage_b": {
+    "run_id": "direct-notebooklm-research-1780855319",
+    "start_time": "2026-06-07T18:01:59Z",
+    "end_time": "2026-06-07T18:02:02Z",
+    "duration_s": 3,
+    "status": "success",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+        "success": true,
+        "notebook_id": "local-fallback",
+        "source_id": "local-b9be9956bbf2",
+        "report_path": "/tmp/notebooklm_processor/3JZ_D3ELwOQ_local-b9be9956bbf2_20260607T180201Z_report.md",
+        "mindmap_path": "/tmp/notebooklm_processor/3JZ_D3ELwOQ_local-b9be9956bbf2_20260607T180201Z_mindmap.json",
+        "error": null
+      }
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/Flexin-On-Ya-2014-本地降级研究简报.md",
+      "raw/notebooklm-mindmaps/Flexin-On-Ya-2014-本地降级研究简报.json",
+      "wiki/canvas/Flexin-On-Ya-2014-本地降级研究简报.canvas"
+    ],
+    "generated_files": [
+      {
+        "type": "report",
+        "path": "/tmp/notebooklm_processor/3JZ_D3ELwOQ_local-b9be9956bbf2_20260607T180201Z_report.md",
+        "source_id": "local-b9be9956bbf2",
+        "language": "zh_Hans"
+      },
+      {
+        "type": "mind-map",
+        "path": "/tmp/notebooklm_processor/3JZ_D3ELwOQ_local-b9be9956bbf2_20260607T180201Z_mindmap.json",
+        "source_id": "local-b9be9956bbf2",
+        "language": "zh_Hans"
+      }
+    ],
     "source_metadata": {
+      "video_id": "3JZ_D3ELwOQ",
       "title": "Flexin' On Ya (2014)",
+      "author": "Ray William Johnson",
+      "published_at": "2014-02-12T02:49:55Z",
       "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-      "author": "Ray William Johnson"
+      "thumbnail": "https://i.ytimg.com/vi/3JZ_D3ELwOQ/hqdefault.jpg",
+      "source_type": "youtube"
+    },
+    "fallback": {
+      "used": true,
+      "mode": "local-metadata",
+      "reason": "forced notebooklm fallback"
     }
   },
   "stage_c": {

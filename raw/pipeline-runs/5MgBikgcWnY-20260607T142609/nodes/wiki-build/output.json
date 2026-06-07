@@ -9,9 +9,24 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/20小时学习法.md",
+      "wiki/concepts/notebooklm-cli.md",
+      "wiki/concepts/学习任何技能.md",
+      "wiki/concepts/本地降级方案.md",
+      "wiki/entities/josh-kaufman.md",
+      "wiki/entities/notebooklm.md",
+      "wiki/entities/tedx-talks.md",
+      "wiki/entities/tedxcsu.md",
+      "wiki/sources/the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

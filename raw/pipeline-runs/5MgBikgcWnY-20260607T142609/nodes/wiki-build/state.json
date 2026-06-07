@@ -2,16 +2,16 @@
   "pipeline_id": "5MgBikgcWnY-20260607T142609",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780842379",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-07T14:26:19Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-07T14:27:00Z",
+  "duration_s": 40,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "executor": {
     "type": "agent-skill",
     "agent": "hermes",
@@ -21,13 +21,14 @@
     "webhook_route": "sop-wiki-build"
   },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "notebooklm-research"
+    "duration_s": 40,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T14:26:20Z"
+  "updated_at": "2026-06-07T14:27:00Z"
 }

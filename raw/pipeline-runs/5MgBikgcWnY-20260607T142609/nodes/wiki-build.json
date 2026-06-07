@@ -2,16 +2,16 @@
   "pipeline_id": "5MgBikgcWnY-20260607T142609",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780842379",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-07T14:26:19Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-07T14:27:00Z",
+  "duration_s": 40,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -52,16 +52,173 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/20小时学习法.md",
+      "wiki/concepts/notebooklm-cli.md",
+      "wiki/concepts/学习任何技能.md",
+      "wiki/concepts/本地降级方案.md",
+      "wiki/entities/josh-kaufman.md",
+      "wiki/entities/notebooklm.md",
+      "wiki/entities/tedx-talks.md",
+      "wiki/entities/tedxcsu.md",
+      "wiki/sources/the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 1429,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "50074f780cb95156",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/20小时学习法.md",
+      "title": "20小时学习法.md",
+      "size": 3688,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "7295487df1af13ef",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/notebooklm-cli.md",
+      "title": "notebooklm-cli.md",
+      "size": 3698,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "60ddf541c70a179f",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/学习任何技能.md",
+      "title": "学习任何技能.md",
+      "size": 3065,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "621b5aff7fd9db35",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/本地降级方案.md",
+      "title": "本地降级方案.md",
+      "size": 4064,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "dc40e0443f0ef445",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/entities/josh-kaufman.md",
+      "title": "josh-kaufman.md",
+      "size": 2216,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "eb1d168c67ec505b",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/entities/notebooklm.md",
+      "title": "notebooklm.md",
+      "size": 2791,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "b346dd5566a28efd",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/entities/tedx-talks.md",
+      "title": "tedx-talks.md",
+      "size": 1831,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "944ac86a2906c814",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/entities/tedxcsu.md",
+      "title": "tedxcsu.md",
+      "size": 1748,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "0246f9f730f64d90",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md",
+      "title": "the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md",
+      "size": 4448,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "notebooklm-research"
+    "duration_s": 40,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T14:26:20Z"
+  "updated_at": "2026-06-07T14:27:00Z"
 }

@@ -9,9 +9,18 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/entities/daddy-yankee.md",
+      "wiki/entities/luis-fonsi.md",
+      "wiki/sources/luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

@@ -98,5 +98,27 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780855252"
+  "fallback_run_id": "direct-notebooklm-research-1780855252",
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780855258",
+    "start_time": "2026-06-07T18:00:58Z",
+    "end_time": "2026-06-07T18:01:11Z",
+    "duration_s": 12,
+    "llm_calls": 5,
+    "pages_created_total": 59,
+    "pages_new_this_run": 3,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/entities/daddy-yankee.md",
+      "wiki/entities/luis-fonsi.md",
+      "wiki/sources/luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报.md"
+    ],
+    "sources": 8,
+    "entities": 12,
+    "concepts": 39,
+    "comparisons": 0,
+    "prompt_tokens": 3996,
+    "completion_tokens": 3186,
+    "status": "success"
+  }
 }

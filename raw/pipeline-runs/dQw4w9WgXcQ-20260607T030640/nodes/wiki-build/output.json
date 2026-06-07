@@ -9,9 +9,36 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/人际关系透明度.md",
+      "wiki/concepts/信任转化.md",
+      "wiki/concepts/全心投入.md",
+      "wiki/concepts/可靠性.md",
+      "wiki/concepts/忠诚度.md",
+      "wiki/concepts/情感保护.md",
+      "wiki/concepts/情感忠诚.md",
+      "wiki/concepts/情感透明度.md",
+      "wiki/concepts/感知与表达的鸿沟.md",
+      "wiki/concepts/持久性.md",
+      "wiki/concepts/沟通的紧迫性.md",
+      "wiki/concepts/绝对忠诚观.md",
+      "wiki/concepts/行为边界.md",
+      "wiki/concepts/诚实性.md",
+      "wiki/concepts/连续性.md",
+      "wiki/concepts/长期承诺.md",
+      "wiki/concepts/长期积淀.md",
+      "wiki/concepts/默契.md",
+      "wiki/entities/never-gonna-give-you-up.md",
+      "wiki/entities/rick-astley.md",
+      "wiki/sources/rick-astley-never-gonna-give-you-up-核心主旨与情感承诺简报.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

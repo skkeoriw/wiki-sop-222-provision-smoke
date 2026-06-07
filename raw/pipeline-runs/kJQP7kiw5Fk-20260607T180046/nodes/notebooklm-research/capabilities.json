@@ -1,0 +1,31 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage B 完成  3s  [kJQP7kiw5Fk-20260607T180046]\n   🔬 NotebookLM 研究\n   📄 Luis-Fonsi-Despacito-ft-Daddy-Yankee-本地降\n   📦 raw/notebooklm-analysis + raw/notebooklm-mindmaps + wiki/canvas\n   🎬 Luis Fonsi - Despacito ft. Daddy Yankee",
+    "sent_at": "2026-06-07T18:00:57Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "59a902d",
+    "commit_message": "chore: stage-b done [pipe:kJQP7kiw5Fk-20260607T180046] [run:direct-notebooklm-research-1780855252]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-notebooklm-research-1780855252.jsonl",
+      "logs/stage-events/direct-youtube-deep-research-1780855252.jsonl",
+      "\"raw/notebooklm-analysis/Luis-Fonsi-Despacito-ft-Daddy-Yankee-\\346\\234\\254\\345\\234\\260\\351\\231\\215.md\"",
+      "\"raw/notebooklm-mindmaps/Luis-Fonsi-Despacito-ft-Daddy-Yankee-\\346\\234\\254\\345\\234\\260\\351\\231\\215.json\"",
+      "\"raw/notebooklm-mindmaps/Luis-Fonsi-Despacito-ft-Daddy-Yankee-\\346\\234\\254\\345\\234\\260\\351\\231\\215.md\"",
+      "raw/pipeline-context.json",
+      "\"wiki/canvas/Luis-Fonsi-Despacito-ft-Daddy-Yankee-\\346\\234\\254\\345\\234\\260\\351\\231\\215.canvas\""
+    ],
+    "finished_at": "2026-06-07T18:00:56Z",
+    "error": ""
+  }
+}

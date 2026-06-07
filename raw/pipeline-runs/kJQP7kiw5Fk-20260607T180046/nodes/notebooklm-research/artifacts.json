@@ -28,19 +28,5 @@
     "tags": [],
     "metadata": {},
     "resolution": "context"
-  },
-  {
-    "id": "dc17135d3a6e1217",
-    "producer": "youtube-fetch",
-    "output": "metadata_file",
-    "type": "file",
-    "format": "json",
-    "path": "raw/youtube-metadata/kJQP7kiw5Fk.json",
-    "title": "kJQP7kiw5Fk.json",
-    "size": 423,
-    "mime_type": "application/json",
-    "tags": [],
-    "metadata": {},
-    "resolution": "context"
   }
 ]

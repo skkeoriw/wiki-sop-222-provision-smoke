@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "⏳ Stage B2 开始  [kJQP7kiw5Fk-20260607T180046]\n   🧪 YouTube 深度研究\n🎬 Luis Fonsi - Despacito ft. Daddy Yankee",
+    "sent_at": "2026-06-07T18:00:53Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

@@ -2,16 +2,16 @@
   "pipeline_id": "9bZkp7q19f0-20260607T143714",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780843045",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-07T14:37:25Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-07T14:37:51Z",
+  "duration_s": 26,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -52,16 +52,113 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/fallback.md",
+      "wiki/concepts/notebooklm-research.md",
+      "wiki/entities/officialpsy.md",
+      "wiki/entities/psy.md",
+      "wiki/sources/psy-gangnam-style-강남스타일-mv-本地降级研究简报.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 1670,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "ba50386fa8dab1f9",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/fallback.md",
+      "title": "fallback.md",
+      "size": 3225,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "8a599d3e17bbda0c",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/notebooklm-research.md",
+      "title": "notebooklm-research.md",
+      "size": 3059,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "6573b5e2d2ec16cc",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/entities/officialpsy.md",
+      "title": "officialpsy.md",
+      "size": 2429,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "684b98df3fcba5c9",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/entities/psy.md",
+      "title": "psy.md",
+      "size": 2176,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "4265fabf45011c6e",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/psy-gangnam-style-강남스타일-mv-本地降级研究简报.md",
+      "title": "psy-gangnam-style-강남스타일-mv-本地降级研究简报.md",
+      "size": 4075,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "notebooklm-research"
+    "duration_s": 26,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T14:37:25Z"
+  "updated_at": "2026-06-07T14:37:51Z"
 }

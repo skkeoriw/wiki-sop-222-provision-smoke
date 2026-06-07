@@ -98,5 +98,29 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780843040"
+  "fallback_run_id": "direct-notebooklm-research-1780843040",
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780843045",
+    "start_time": "2026-06-07T14:37:25Z",
+    "end_time": "2026-06-07T14:37:49Z",
+    "duration_s": 24,
+    "llm_calls": 7,
+    "pages_created_total": 56,
+    "pages_new_this_run": 5,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/fallback.md",
+      "wiki/concepts/notebooklm-research.md",
+      "wiki/entities/officialpsy.md",
+      "wiki/entities/psy.md",
+      "wiki/sources/psy-gangnam-style-강남스타일-mv-本地降级研究简报.md"
+    ],
+    "sources": 7,
+    "entities": 10,
+    "concepts": 39,
+    "comparisons": 0,
+    "prompt_tokens": 4886,
+    "completion_tokens": 5517,
+    "status": "success"
+  }
 }

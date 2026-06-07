@@ -9,9 +9,20 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/fallback.md",
+      "wiki/concepts/notebooklm-research.md",
+      "wiki/entities/officialpsy.md",
+      "wiki/entities/psy.md",
+      "wiki/sources/psy-gangnam-style-강남스타일-mv-本地降级研究简报.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

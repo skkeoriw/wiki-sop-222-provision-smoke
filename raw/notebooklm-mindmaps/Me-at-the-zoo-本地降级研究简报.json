@@ -1,0 +1,35 @@
+{
+  "name": "Me at the zoo",
+  "children": [
+    {
+      "name": "来源信息",
+      "children": [
+        {
+          "name": "Me at the zoo"
+        },
+        {
+          "name": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+        }
+      ]
+    },
+    {
+      "name": "降级原因",
+      "children": [
+        {
+          "name": "notebooklm create failed rc=127: notebooklm CLI not found"
+        }
+      ]
+    },
+    {
+      "name": "后续动作",
+      "children": [
+        {
+          "name": "继续 Stage C"
+        },
+        {
+          "name": "需要时重试 NotebookLM"
+        }
+      ]
+    }
+  ]
+}

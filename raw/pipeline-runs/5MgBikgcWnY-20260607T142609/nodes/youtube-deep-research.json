@@ -2,16 +2,16 @@
   "pipeline_id": "5MgBikgcWnY-20260607T142609",
   "node_id": "youtube-deep-research",
   "run_id": "direct-youtube-deep-research-1780842375",
-  "status": "running",
+  "status": "done",
   "mode": "sidecar",
   "needs": [
     "youtube-fetch"
   ],
   "started_at": "2026-06-07T14:26:15Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-07T14:29:24Z",
+  "duration_s": 187,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "source_url": "youtube-fetch.outputs.source_url"
   },
@@ -45,16 +45,57 @@
       "type": "file"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "analysis_file": [
+      "raw/youtube-deep-research/5MgBikgcWnY-20260607T142609/analysis.md"
+    ],
+    "transcript_file": [
+      "raw/youtube-deep-research/5MgBikgcWnY-20260607T142609/transcript.txt"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "21d6cbe2eab17ed0",
+      "producer": "youtube-deep-research",
+      "output": "analysis_file",
+      "type": "research.analysis",
+      "format": "markdown",
+      "path": "raw/youtube-deep-research/5MgBikgcWnY-20260607T142609/analysis.md",
+      "title": "analysis.md",
+      "size": 33754,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "recorded"
+    },
+    {
+      "id": "0dbcff460e6d9f7c",
+      "producer": "youtube-deep-research",
+      "output": "transcript_file",
+      "type": "research.transcript",
+      "format": "text",
+      "path": "raw/youtube-deep-research/5MgBikgcWnY-20260607T142609/transcript.txt",
+      "title": "transcript.txt",
+      "size": 14775,
+      "mime_type": "text/plain",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "recorded"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "youtube-fetch"
+    "duration_s": 187,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T14:26:16Z"
+  "updated_at": "2026-06-07T14:29:24Z"
 }

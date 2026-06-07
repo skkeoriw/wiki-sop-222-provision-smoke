@@ -11,6 +11,26 @@
   "git": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "b31cbca",
+    "commit_message": "chore: stage-a event [run:direct-1780842371]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-1780842371.jsonl",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/artifacts.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/context.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/dag.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/events.jsonl",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/nodes/youtube-fetch.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/nodes/youtube-fetch/artifacts.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/nodes/youtube-fetch/capabilities.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/nodes/youtube-fetch/input.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/nodes/youtube-fetch/output.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/nodes/youtube-fetch/state.json",
+      "raw/pipeline-runs/5MgBikgcWnY-20260607T142609/run.json"
+    ],
+    "finished_at": "2026-06-07T14:26:15Z",
+    "error": ""
   }
 }

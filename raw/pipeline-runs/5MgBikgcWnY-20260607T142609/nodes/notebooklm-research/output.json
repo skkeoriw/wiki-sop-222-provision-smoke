@@ -1,0 +1,25 @@
+{
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/The-first-20-hours-how-to-learn-anything.md"
+    ],
+    "mindmaps": [
+      "raw/notebooklm-mindmaps/The-first-20-hours-how-to-learn-anything.json"
+    ]
+  },
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  }
+}

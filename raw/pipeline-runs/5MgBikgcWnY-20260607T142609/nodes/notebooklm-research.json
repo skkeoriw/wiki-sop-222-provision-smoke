@@ -1,0 +1,108 @@
+{
+  "pipeline_id": "5MgBikgcWnY-20260607T142609",
+  "node_id": "notebooklm-research",
+  "run_id": "direct-notebooklm-research-1780842375",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-07T14:26:15Z",
+  "finished_at": "2026-06-07T14:26:18Z",
+  "duration_s": 2,
+  "attempt": 2,
+  "progress": 100,
+  "inputs": {
+    "source_url": "youtube-fetch.outputs.source_url",
+    "metadata_file": "youtube-fetch.outputs.metadata_file"
+  },
+  "outputs": {
+    "reports": "raw/notebooklm-analysis/*.md",
+    "mindmaps": "raw/notebooklm-mindmaps/*.json"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "agent-skill",
+    "agent": "hermes",
+    "skill": "sop-notebooklm-research",
+    "entry": "scripts/run_notebooklm_research.sh",
+    "webhook_route": "sop-notebooklm-research"
+  },
+  "declared_inputs": {
+    "source_url": {
+      "from": "youtube-fetch.outputs.source_url",
+      "required": true
+    },
+    "metadata_file": {
+      "from": "youtube-fetch.outputs.metadata_file",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
+    "metadata_file": [
+      "raw/youtube-metadata/5MgBikgcWnY.json"
+    ]
+  },
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/The-first-20-hours-how-to-learn-anything.md"
+    ],
+    "mindmaps": [
+      "raw/notebooklm-mindmaps/The-first-20-hours-how-to-learn-anything.json"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "f259fee259b18dfa",
+      "producer": "notebooklm-research",
+      "output": "reports",
+      "type": "research.report",
+      "format": "markdown",
+      "path": "raw/notebooklm-analysis/The-first-20-hours-how-to-learn-anything.md",
+      "title": "The-first-20-hours-how-to-learn-anything.md",
+      "size": 1143,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "dd9ab2784d61d424",
+      "producer": "notebooklm-research",
+      "output": "mindmaps",
+      "type": "research.mindmap",
+      "format": "json",
+      "path": "raw/notebooklm-mindmaps/The-first-20-hours-how-to-learn-anything.json",
+      "title": "The-first-20-hours-how-to-learn-anything.json",
+      "size": 732,
+      "mime_type": "application/json",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "duration_s": 2,
+    "progress": 100
+  },
+  "error": "",
+  "updated_at": "2026-06-07T14:26:18Z"
+}

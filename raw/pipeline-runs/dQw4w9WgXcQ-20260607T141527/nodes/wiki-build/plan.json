@@ -333,11 +333,17 @@
     }
   ],
   "estimated_llm_calls": 5,
-  "actual_llm_calls": 1,
-  "prompt_tokens": 2248,
-  "completion_tokens": 2911,
-  "generated_pages": [],
+  "actual_llm_calls": 6,
+  "prompt_tokens": 6297,
+  "completion_tokens": 7793,
+  "generated_pages": [
+    "wiki/concepts/六大核心保障条款.md",
+    "wiki/concepts/差异化的承诺价值.md",
+    "wiki/concepts/独特附加值.md",
+    "wiki/sources/情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析.md"
+  ],
   "failed_pages": [],
-  "status": "running",
-  "updated_at": "2026-06-07T14:16:38Z"
+  "status": "done",
+  "updated_at": "2026-06-07T14:16:58Z",
+  "generated_pages_count": 4
 }

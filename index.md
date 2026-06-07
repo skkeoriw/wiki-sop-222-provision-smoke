@@ -1,9 +1,10 @@
 # YouTube Video Research Wiki
 Last updated: 2026-06-07
-Total pages: 2
+Total pages: 4
 
 ## Sources
 - [[never-gonna-give-you-up-核心承诺与关系稳定性深度简报]]
+- [[情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析]]
 - [[关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心]]
 - [[rick-astley-never-gonna-give-you-up-核心主旨与情感承诺简报]]
 
@@ -18,10 +19,12 @@ Total pages: 2
 - [[信任积累]]
 - [[人际关系透明度]]
 - [[行为边界]]
+- [[六大核心保障条款]]
 - [[全方位承诺]]
 - [[全心投入]]
 - [[排他性忠诚]]
 - [[长期价值]]
+- [[独特附加值]]
 - [[忠诚度]]
 - [[关系稳定性]]
 - [[言行一致]]
@@ -41,5 +44,6 @@ Total pages: 2
 - [[诚实性]]
 - [[信任转化]]
 - [[长期积淀]]
+- [[差异化的承诺价值]]
 
 ## Mindmaps

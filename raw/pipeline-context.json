@@ -1,7 +1,7 @@
 {
-  "source_url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+  "source_url": "https://www.youtube.com/watch?v=dQw4y9WgXcQ",
   "source_type": "youtube",
-  "pipeline_id": "aqz-KE-bpKQ-20260607T183410",
+  "pipeline_id": "dQw4y9WgXcQ-20260607T184300",
   "test_overrides": {
     "force_notebooklm_fallback": true
   },
@@ -34,25 +34,5 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780855319",
-  "stage_b_fetch": {
-    "run_id": "direct-1780857251",
-    "video_id": "aqz-KE-bpKQ",
-    "title": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film",
-    "author": "Blender",
-    "published_at": "2014-11-10T14:05:55Z",
-    "youtube_url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-    "thumbnail": "https://i.ytimg.com/vi/aqz-KE-bpKQ/hqdefault.jpg",
-    "meta_file": "raw/youtube-metadata/aqz-KE-bpKQ.json"
-  },
-  "stage_b": {
-    "source_metadata": {
-      "title": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film",
-      "youtube_url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-      "author": "Blender"
-    },
-    "output_files": [
-      "raw/notebooklm-analysis/Big-Buck-Bunny-60fps-4K---Official-Blender-Foundation-Short-Film-youtube-deep-research.md"
-    ]
-  }
+  "fallback_run_id": "direct-notebooklm-research-1780855319"
 }

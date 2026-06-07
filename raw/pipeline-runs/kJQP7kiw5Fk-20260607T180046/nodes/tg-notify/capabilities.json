@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage D 完成  17s  [kJQP7kiw5Fk-20260607T180046]\n   📢 Telegram 通知\n   🎬 Luis Fonsi - Despacito ft. Daddy Yankee",
+    "sent_at": "2026-06-07T18:01:15Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

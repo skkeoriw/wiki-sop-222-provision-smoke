@@ -1,0 +1,61 @@
+{
+  "pipeline_id": "kJQP7kiw5Fk-20260607T180046",
+  "node_id": "tg-notify",
+  "run_id": "direct-wiki-build-1780855258",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [
+    "wiki-build"
+  ],
+  "started_at": "2026-06-07T18:01:14Z",
+  "finished_at": "2026-06-07T18:01:15Z",
+  "duration_s": 17,
+  "attempt": 2,
+  "progress": 100,
+  "inputs": {
+    "index": "wiki-build.outputs.index"
+  },
+  "outputs": {
+    "telegram_message": "logs/pipeline-runs/pipe-{run_id}.json"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "direct-skill",
+    "skill": "sop-tg-notify",
+    "webhook_route": "sop-tg-notify"
+  },
+  "declared_inputs": {
+    "index": {
+      "from": "wiki-build.outputs.index",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "index": [
+      "index.md"
+    ]
+  },
+  "declared_outputs": {
+    "telegram_message": {
+      "path": "logs/pipeline-runs/pipe-{run_id}.json",
+      "type": "file"
+    }
+  },
+  "actual_outputs": {
+    "telegram_message": []
+  },
+  "artifacts": [],
+  "validation": {
+    "status": "warning",
+    "missing_outputs": [
+      "telegram_message"
+    ],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "duration_s": 17,
+    "progress": 100
+  },
+  "error": "",
+  "updated_at": "2026-06-07T18:01:15Z"
+}

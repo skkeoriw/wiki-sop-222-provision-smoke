@@ -9,9 +9,26 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/主动情感表达.md",
+      "wiki/concepts/信任积累.md",
+      "wiki/concepts/全方位承诺.md",
+      "wiki/concepts/关系稳定性.md",
+      "wiki/concepts/排他性忠诚.md",
+      "wiki/concepts/沟通延迟.md",
+      "wiki/concepts/言行一致.md",
+      "wiki/concepts/负面清单承诺.md",
+      "wiki/concepts/逃避或遗弃.md",
+      "wiki/concepts/长期价值.md",
+      "wiki/sources/never-gonna-give-you-up-核心承诺与关系稳定性深度简报.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

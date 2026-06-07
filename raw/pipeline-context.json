@@ -30,5 +30,22 @@
     },
     "chunks_total": 1,
     "chunks_done": 1
+  },
+  "stage_b_fetch": {
+    "run_id": "direct-1780855248",
+    "video_id": "kJQP7kiw5Fk",
+    "title": "Luis Fonsi - Despacito ft. Daddy Yankee",
+    "author": "LuisFonsiVEVO",
+    "published_at": "2017-01-13T05:00:02Z",
+    "youtube_url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+    "thumbnail": "https://i.ytimg.com/vi/kJQP7kiw5Fk/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/kJQP7kiw5Fk.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "Luis Fonsi - Despacito ft. Daddy Yankee",
+      "youtube_url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+      "author": "LuisFonsiVEVO"
+    }
   }
 }

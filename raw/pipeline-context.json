@@ -42,10 +42,61 @@
     "meta_file": "raw/youtube-metadata/9bZkp7q19f0.json"
   },
   "stage_b": {
+    "run_id": "direct-notebooklm-research-1780843040",
+    "start_time": "2026-06-07T14:37:20Z",
+    "end_time": "2026-06-07T14:37:22Z",
+    "duration_s": 2,
+    "status": "success",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=9bZkp7q19f0",
+        "success": true,
+        "notebook_id": "local-fallback",
+        "source_id": "local-5552ca24bfba",
+        "report_path": "/tmp/notebooklm_processor/9bZkp7q19f0_local-5552ca24bfba_20260607T143722Z_report.md",
+        "mindmap_path": "/tmp/notebooklm_processor/9bZkp7q19f0_local-5552ca24bfba_20260607T143722Z_mindmap.json",
+        "error": null
+      }
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/PSY-GANGNAM-STYLE-M-V-本地降级研究简报.md",
+      "raw/notebooklm-mindmaps/PSY-GANGNAM-STYLE-M-V-本地降级研究简报.json",
+      "wiki/canvas/PSY-GANGNAM-STYLE-M-V-本地降级研究简报.canvas"
+    ],
+    "generated_files": [
+      {
+        "type": "report",
+        "path": "/tmp/notebooklm_processor/9bZkp7q19f0_local-5552ca24bfba_20260607T143722Z_report.md",
+        "source_id": "local-5552ca24bfba",
+        "language": "zh_Hans"
+      },
+      {
+        "type": "mind-map",
+        "path": "/tmp/notebooklm_processor/9bZkp7q19f0_local-5552ca24bfba_20260607T143722Z_mindmap.json",
+        "source_id": "local-5552ca24bfba",
+        "language": "zh_Hans"
+      }
+    ],
     "source_metadata": {
+      "video_id": "9bZkp7q19f0",
       "title": "PSY - GANGNAM STYLE(강남스타일) M/V",
+      "author": "officialpsy",
+      "published_at": "2012-07-15T07:46:32Z",
       "youtube_url": "https://www.youtube.com/watch?v=9bZkp7q19f0",
-      "author": "officialpsy"
+      "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/hqdefault.jpg",
+      "source_type": "youtube"
+    },
+    "fallback": {
+      "used": true,
+      "mode": "local-metadata",
+      "reason": "forced notebooklm fallback"
     }
-  }
+  },
+  "fallback_used": true,
+  "fallback_mode": "local-metadata",
+  "fallback_reason": "forced notebooklm fallback",
+  "fallback_run_id": "direct-notebooklm-research-1780843040"
 }

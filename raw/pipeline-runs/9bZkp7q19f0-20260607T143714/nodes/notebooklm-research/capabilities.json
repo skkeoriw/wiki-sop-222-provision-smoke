@@ -1,0 +1,31 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage B 完成  2s  [9bZkp7q19f0-20260607T143714]\n   🔬 NotebookLM 研究\n   📄 PSY-GANGNAM-STYLE-M-V-本地降级研究简报\n   📦 raw/notebooklm-analysis + raw/notebooklm-mindmaps + wiki/canvas\n   🎬 PSY - GANGNAM STYLE(강남스타일) M/V",
+    "sent_at": "2026-06-07T14:37:24Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "918566f",
+    "commit_message": "chore: stage-b done [pipe:9bZkp7q19f0-20260607T143714] [run:direct-notebooklm-research-1780843040]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-notebooklm-research-1780843040.jsonl",
+      "logs/stage-events/direct-youtube-deep-research-1780843040.jsonl",
+      "\"raw/notebooklm-analysis/PSY-GANGNAM-STYLE-M-V-\\346\\234\\254\\345\\234\\260\\351\\231\\215\\347\\272\\247\\347\\240\\224\\347\\251\\266\\347\\256\\200\\346\\212\\245.md\"",
+      "\"raw/notebooklm-mindmaps/PSY-GANGNAM-STYLE-M-V-\\346\\234\\254\\345\\234\\260\\351\\231\\215\\347\\272\\247\\347\\240\\224\\347\\251\\266\\347\\256\\200\\346\\212\\245.json\"",
+      "\"raw/notebooklm-mindmaps/PSY-GANGNAM-STYLE-M-V-\\346\\234\\254\\345\\234\\260\\351\\231\\215\\347\\272\\247\\347\\240\\224\\347\\251\\266\\347\\256\\200\\346\\212\\245.md\"",
+      "raw/pipeline-context.json",
+      "\"wiki/canvas/PSY-GANGNAM-STYLE-M-V-\\346\\234\\254\\345\\234\\260\\351\\231\\215\\347\\272\\247\\347\\240\\224\\347\\251\\266\\347\\256\\200\\346\\212\\245.canvas\""
+    ],
+    "finished_at": "2026-06-07T14:37:23Z",
+    "error": ""
+  }
+}

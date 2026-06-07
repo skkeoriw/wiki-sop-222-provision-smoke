@@ -2,16 +2,16 @@
   "pipeline_id": "jNQXAC9IVRw-20260607T143410",
   "node_id": "youtube-deep-research",
   "run_id": "direct-youtube-deep-research-1780842856",
-  "status": "running",
+  "status": "done",
   "mode": "sidecar",
   "needs": [
     "youtube-fetch"
   ],
   "started_at": "2026-06-07T14:34:16Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-07T14:35:12Z",
+  "duration_s": 54,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "source_url": "youtube-fetch.outputs.source_url"
   },
@@ -45,16 +45,57 @@
       "type": "file"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "analysis_file": [
+      "raw/youtube-deep-research/jNQXAC9IVRw-20260607T143410/analysis.md"
+    ],
+    "transcript_file": [
+      "raw/youtube-deep-research/jNQXAC9IVRw-20260607T143410/transcript.txt"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "668070a9c3d6d61f",
+      "producer": "youtube-deep-research",
+      "output": "analysis_file",
+      "type": "research.analysis",
+      "format": "markdown",
+      "path": "raw/youtube-deep-research/jNQXAC9IVRw-20260607T143410/analysis.md",
+      "title": "analysis.md",
+      "size": 6353,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "recorded"
+    },
+    {
+      "id": "0b5336adc1cd3248",
+      "producer": "youtube-deep-research",
+      "output": "transcript_file",
+      "type": "research.transcript",
+      "format": "text",
+      "path": "raw/youtube-deep-research/jNQXAC9IVRw-20260607T143410/transcript.txt",
+      "title": "transcript.txt",
+      "size": 193,
+      "mime_type": "text/plain",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "recorded"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "youtube-fetch"
+    "duration_s": 54,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T14:34:17Z"
+  "updated_at": "2026-06-07T14:35:12Z"
 }

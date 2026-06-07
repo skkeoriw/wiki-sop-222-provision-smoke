@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage B 完成  59s  [dQw4w9WgXcQ-20260607T030640]\n   🔬 NotebookLM 研究\n   📄 Rick-Astley-Never-Gonna-Give-You-Up-核心主旨\n   📦 raw/notebooklm-analysis\n   🎬 Rick Astley - Never Gonna Give You Up (Official Video) (4K R",
+    "sent_at": "2026-06-07T03:07:46Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

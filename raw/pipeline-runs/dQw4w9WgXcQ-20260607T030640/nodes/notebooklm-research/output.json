@@ -1,0 +1,25 @@
+{
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/Rick-Astley-Never-Gonna-Give-You-Up-核心主旨.md"
+    ],
+    "mindmaps": []
+  },
+  "validation": {
+    "status": "warning",
+    "missing_outputs": [
+      "mindmaps"
+    ],
+    "unexpected_outputs": []
+  }
+}

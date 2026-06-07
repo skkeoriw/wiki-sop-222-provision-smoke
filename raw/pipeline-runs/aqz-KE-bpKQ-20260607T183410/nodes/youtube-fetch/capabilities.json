@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage A 完成  2s  [aqz-KE-bpKQ-20260607T183410]\n   🔍 YouTube 元数据获取\n   🎬 Big Buck Bunny 60fps 4K - Official Blender Foundat\n   👤 Blender\n   📦 raw/youtube-metadata\n   🎬 Big Buck Bunny 60fps 4K - Official Blender Foundation Short ",
+    "sent_at": "2026-06-07T18:34:15Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

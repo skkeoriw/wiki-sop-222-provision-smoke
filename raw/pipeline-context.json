@@ -51,5 +51,25 @@
       "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
       "author": "Ray William Johnson"
     }
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780855310",
+    "start_time": "2026-06-07T18:01:51Z",
+    "end_time": "2026-06-07T18:01:59Z",
+    "duration_s": 8,
+    "llm_calls": 3,
+    "pages_created_total": 60,
+    "pages_new_this_run": 1,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/sources/rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报.md"
+    ],
+    "sources": 9,
+    "entities": 12,
+    "concepts": 39,
+    "comparisons": 0,
+    "prompt_tokens": 2808,
+    "completion_tokens": 2600,
+    "status": "success"
   }
 }

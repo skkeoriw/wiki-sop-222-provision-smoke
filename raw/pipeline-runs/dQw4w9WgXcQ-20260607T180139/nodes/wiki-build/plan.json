@@ -1,0 +1,211 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260607T180139",
+  "run_id": "direct-wiki-build-1780855310",
+  "selected_sources": [
+    {
+      "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster) 本地降级研究简报",
+      "slug": "rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "rick-astley.md",
+      "reason": "报告明确提及的艺术家。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "报告的核心分析对象，一首歌曲的标题。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "skip",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "平台名称，但报告重点不在平台本身，而是其上的视频。",
+      "kind": "entitie",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "报告中提到的工具，用于生成研究材料。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "notebooklm.md",
+      "reason": "报告中提到的核心产品/服务，其不可用导致了本地降级。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "本地降级方案.md",
+      "reason": "报告的核心主题，描述了在主系统不可用时采取的替代方案。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "fallback.md",
+      "reason": "在 NotebookLM CLI/Bridge 不可用时使用的替代机制。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "报告中提到的研究类型，尽管本次是降级处理。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "研究简报",
+      "slug": "研究简报",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "报告的类型描述，但不是核心概念。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "元数据",
+      "slug": "元数据",
+      "action": "skip",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "报告中提到的用于生成研究材料的基础信息。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "本地降级",
+      "slug": "本地降级",
+      "action": "skip",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告的核心操作，但“本地降级方案”已包含此含义。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Stage B 产物",
+      "slug": "stage-b-产物",
+      "action": "skip",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告处理阶段的描述，非核心概念。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Stage C",
+      "slug": "stage-c",
+      "action": "skip",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "报告处理阶段的描述，非核心概念。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Stage A",
+      "slug": "stage-a",
+      "action": "skip",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "报告处理阶段的描述，非核心概念。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Git/TG/SPI/UI 验收链路",
+      "slug": "git-tg-spi-ui-验收链路",
+      "action": "skip",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提到的后续处理流程，但非核心概念。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "CLI/Bridge",
+      "slug": "cli-bridge",
+      "action": "skip",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "NotebookLM 的组件，但报告重点在于其不可用导致的问题。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "HTTP 522",
+      "slug": "http-522",
+      "action": "skip",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到的错误代码，是导致降级的原因之一，但非核心概念。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "4K Remaster",
+      "slug": "4k-remaster",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "视频的格式描述，非核心概念。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    }
+  ],
+  "estimated_llm_calls": 2,
+  "actual_llm_calls": 3,
+  "prompt_tokens": 2808,
+  "completion_tokens": 2600,
+  "generated_pages": [
+    "wiki/sources/rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报.md"
+  ],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-07T18:01:59Z",
+  "generated_pages_count": 1
+}

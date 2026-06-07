@@ -1,0 +1,343 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260607T141527",
+  "run_id": "direct-wiki-build-1780841788",
+  "selected_sources": [
+    {
+      "title": "情感承诺与关系持久性深度简报：基于《Never Gonna Give You Up》文本分析",
+      "slug": "情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [
+    {
+      "name": "六大核心保障条款",
+      "slug": "六大核心保障条款",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中对“Six Pillars of Reliability”进行了详细阐述，是负面清单承诺的具体化，值得单独建页。"
+    },
+    {
+      "name": "差异化的承诺价值",
+      "slug": "差异化的承诺价值",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中明确提出，强调承诺的独特性和市场定位，值得单独建页。"
+    },
+    {
+      "name": "独特附加值",
+      "slug": "独特附加值",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中建议识别并沟通自己能提供而他人无法提供的独特性，即“Unique Selling Proposition”。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "rick-astley.md",
+      "reason": "已在现有 wiki 清单中存在，且报告中明确提及。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 0.95,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "已在现有 wiki 清单中存在，且报告的核心分析对象。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "绝对忠实",
+      "slug": "绝对忠实",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "绝对忠诚观.md",
+      "reason": "与现有概念“绝对忠诚观”语义高度一致，报告中作为核心价值观被强调。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期承诺",
+      "slug": "长期承诺",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "长期承诺.md",
+      "reason": "已在现有 wiki 清单中存在，且报告的核心主题之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "全心全意",
+      "slug": "全心投入",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "全心投入.md",
+      "reason": "报告中明确提及“全心全意（Full commitment）”，与现有概念“全心投入”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性声明",
+      "slug": "排他性忠诚",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "排他性忠诚.md",
+      "reason": "报告中通过“You wouldn't get this from any other guy”等表述体现了排他性，与现有概念“排他性忠诚”高度相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "负面清单承诺",
+      "slug": "负面清单承诺",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "负面清单承诺.md",
+      "reason": "已在现有 wiki 清单中存在，且报告详细列举了“Six Nevers”作为具体体现。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "关系稳定性",
+      "slug": "关系稳定性",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "关系稳定性.md",
+      "reason": "已在现有 wiki 清单中存在，且报告的核心探讨方向。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "规则共识",
+      "slug": "规则共识",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提及“We're no strangers to love”，暗示双方对关系规则有共同认知，可作为概念。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "稀缺性",
+      "slug": "稀缺性",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中通过“You wouldn't get this from any other guy”强调承诺的稀缺性，是承诺价值的重要组成部分。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "情感透明度.md",
+      "reason": "已在现有 wiki 清单中存在，且报告中将其作为重要主题进行分析。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通需求",
+      "slug": "沟通的紧迫性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "沟通的紧迫性.md",
+      "reason": "报告中强调显性表达的重要性以及打破沟通障碍的决心，与“沟通的紧迫性”概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "打破沉默",
+      "slug": "打破沉默",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中描述了关系中可能存在的沟通障碍，并提出打破沉默的必要性。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "强制理解",
+      "slug": "强制理解",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中“Gotta make you understand”和“I just wanna tell you how I'm feeling”体现了主动沟通以确保对方理解的意愿。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "不放弃",
+      "slug": "不放弃",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "持久性.md",
+      "reason": "报告中“Never gonna give you up”是核心承诺之一，与“持久性”概念紧密相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不令其失望",
+      "slug": "不令其失望",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "可靠性.md",
+      "reason": "报告中“Never gonna let you down”体现了可靠性，与现有概念“可靠性”一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不背离",
+      "slug": "不背离",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "逃避或遗弃.md",
+      "reason": "报告中“Never gonna run around and desert you”直接对应“逃避或遗弃”的概念，但此处强调的是反面，可作为其反义概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不致流泪",
+      "slug": "不致流泪",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中“Never gonna make you cry”是具体的承诺，旨在避免情感伤害。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "不告别",
+      "slug": "不告别",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中“Never gonna say goodbye”代表了关系的终身契约，是承诺的体现。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "不谎称/伤害",
+      "slug": "诚实性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "诚实性.md",
+      "reason": "报告中“Never gonna tell a lie and hurt you”强调了诚信，与现有概念“诚实性”一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "战略定位",
+      "slug": "战略定位",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中“A full commitment's what I'm thinking of”被解读为叙述者的战略定位，即目标是全心投入。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "默契认同",
+      "slug": "默契",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "默契.md",
+      "reason": "已在现有 wiki 清单中存在，报告中“Inside we both know what's been going on”明确体现了这一点。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "互动模式",
+      "slug": "互动模式",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中将互动比作“Game”，暗示了一种双方都认可并愿意参与的长期互动模式。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "现实确认",
+      "slug": "现实确认",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中“Don't tell me you're too blind to see”要求对方承认显而易见的事实，消除了情感表达中的模糊地带。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "心理洞察",
+      "slug": "心理洞察",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中“Your heart's been aching but you're too shy to say it”体现了对对方心理状态的识别和理解。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "边界感",
+      "slug": "行为边界",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "行为边界.md",
+      "reason": "报告中建议效仿“Six Nevers”来建立明确的“边界感”，与现有概念“行为边界”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通僵局",
+      "slug": "沟通僵局",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提到“too shy to say it”的状态，暗示了沟通可能出现的僵局。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "隐性默契",
+      "slug": "隐性默契",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到显性表达巩固隐性默契，表明了隐性默契的存在。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "信号输出",
+      "slug": "信号输出",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中强调通过不断的、一致的信号输出强化信任。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    }
+  ],
+  "estimated_llm_calls": 5,
+  "actual_llm_calls": 1,
+  "prompt_tokens": 2248,
+  "completion_tokens": 2911,
+  "generated_pages": [],
+  "failed_pages": [],
+  "status": "running",
+  "updated_at": "2026-06-07T14:16:38Z"
+}

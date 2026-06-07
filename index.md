@@ -1,8 +1,9 @@
 # YouTube Video Research Wiki
 Last updated: 2026-06-07
-Total pages: 9
+Total pages: 4
 
 ## Sources
+- [[me-at-the-zoo-本地降级研究简报]]
 - [[never-gonna-give-you-up-核心承诺与关系稳定性深度简报]]
 - [[情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析]]
 - [[关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心]]
@@ -10,11 +11,13 @@ Total pages: 9
 - [[the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报]]
 
 ## Entities
+- [[jawed]]
 - [[never-gonna-give-you-up]]
 - [[josh-kaufman]]
 - [[tedxcsu]]
 - [[rick-astley]]
 - [[notebooklm]]
+- [[me-at-the-zoo]]
 - [[tedx-talks]]
 
 ## Concepts
@@ -44,6 +47,7 @@ Total pages: 9
 - [[可靠性]]
 - [[情感透明度]]
 - [[绝对忠诚观]]
+- [[youtube-深度研究]]
 - [[情感忠诚]]
 - [[完全承诺]]
 - [[主动情感表达]]

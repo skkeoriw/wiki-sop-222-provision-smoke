@@ -1,0 +1,180 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "jNQXAC9IVRw-20260607T143410",
+  "run_id": "direct-wiki-build-1780842860",
+  "selected_sources": [
+    {
+      "title": "Me at the zoo 本地降级研究简报",
+      "slug": "me-at-the-zoo-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [
+    {
+      "name": "Me at the zoo",
+      "slug": "me-at-the-zoo",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "这是一个具有代表性的早期 YouTube 视频，值得单独建页记录。"
+    },
+    {
+      "name": "jawed",
+      "slug": "jawed",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "作为早期 YouTube 的重要贡献者，其名字值得记录。"
+    }
+  ],
+  "selected_concepts": [
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提及的另一项研究，与视频内容分析相关。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "youtube.md",
+      "reason": "已在现有 wiki 清单中存在，是重要的视频平台。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "notebooklm.md",
+      "reason": "报告中多次提及，是本次分析的工具/平台。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "报告中明确提及的工具，是 NotebookLM 的命令行接口。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "本地降级方案.md",
+      "reason": "报告的核心主题，描述了在工具不可用时的应对策略。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Stage B",
+      "slug": "stage-b",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "这是一个流程阶段的标识，过于具体，不适合作为独立概念建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Stage C",
+      "slug": "stage-c",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "这是一个流程阶段的标识，过于具体，不适合作为独立概念建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "skip",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "这是一个通用的技术术语，描述了备用方案，但在此上下文中不够独特，不值得单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "元数据",
+      "slug": "元数据",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提及，是分析的基础信息，具有一定的概念价值。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "Wiki 构建",
+      "slug": "wiki-构建",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提及的下游流程，与知识图谱构建相关。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "节点产物",
+      "slug": "节点产物",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提及的输出，与知识图谱的节点概念相关。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "Git/TG/SPI/UI 验收链路",
+      "slug": "git-tg-spi-ui-验收链路",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提及的流程环节，描述了验收过程。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "补充分析",
+      "slug": "补充分析",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提及的分析类型，与知识图谱的增量更新相关。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    }
+  ],
+  "estimated_llm_calls": 5,
+  "actual_llm_calls": 6,
+  "prompt_tokens": 4077,
+  "completion_tokens": 4339,
+  "generated_pages": [
+    "wiki/concepts/youtube-深度研究.md",
+    "wiki/entities/jawed.md",
+    "wiki/entities/me-at-the-zoo.md",
+    "wiki/sources/me-at-the-zoo-本地降级研究简报.md"
+  ],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-07T14:34:40Z",
+  "generated_pages_count": 4
+}

@@ -28,19 +28,5 @@
     "tags": [],
     "metadata": {},
     "resolution": "context"
-  },
-  {
-    "id": "ba8c802014126f4e",
-    "producer": "youtube-fetch",
-    "output": "metadata_file",
-    "type": "file",
-    "format": "json",
-    "path": "raw/youtube-metadata/aqz-KE-bpKQ.json",
-    "title": "aqz-KE-bpKQ.json",
-    "size": 442,
-    "mime_type": "application/json",
-    "tags": [],
-    "metadata": {},
-    "resolution": "context"
   }
 ]

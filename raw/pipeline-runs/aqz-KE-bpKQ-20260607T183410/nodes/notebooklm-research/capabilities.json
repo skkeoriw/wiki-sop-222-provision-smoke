@@ -1,0 +1,27 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage B 完成  2s  [aqz-KE-bpKQ-20260607T183410]\n   🔬 NotebookLM 研究\n   📄 Big-Buck-Bunny-60fps-4K-Official-Blender\n   📦 raw/notebooklm-analysis + raw/notebooklm-mindmaps + wiki/canvas\n   🎬 Big Buck Bunny 60fps 4K - Official Blender Foundation Short ",
+    "sent_at": "2026-06-07T18:34:20Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "4c35d9c",
+    "commit_message": "chore: stage-b done [pipe:aqz-KE-bpKQ-20260607T183410] [run:direct-notebooklm-research-1780857256]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-notebooklm-research-1780857256.jsonl",
+      "logs/stage-events/direct-youtube-deep-research-1780857256.jsonl",
+      "raw/pipeline-context.json"
+    ],
+    "finished_at": "2026-06-07T18:34:19Z",
+    "error": ""
+  }
+}

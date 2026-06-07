@@ -1,0 +1,102 @@
+{
+  "pipeline_id": "3JZ_D3ELwOQ-20260607T180153",
+  "node_id": "wiki-build",
+  "run_id": "direct-wiki-build-1780855310",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [
+    "notebooklm-research"
+  ],
+  "started_at": "",
+  "finished_at": "2026-06-07T18:02:01Z",
+  "duration_s": 11,
+  "attempt": 0,
+  "progress": 100,
+  "inputs": {
+    "reports": "notebooklm-research.outputs.reports"
+  },
+  "outputs": {
+    "index": "index.md",
+    "pages": "wiki/**"
+  },
+  "optional_inputs": {
+    "deep_research": "youtube-deep-research.outputs.analysis_file"
+  },
+  "executor": {
+    "type": "agent-skill",
+    "agent": "hermes",
+    "skill": "sop-wiki-build",
+    "entry": "scripts/run_wiki_build.sh",
+    "model": "gemini-2.5-flash-lite",
+    "webhook_route": "sop-wiki-build"
+  },
+  "declared_inputs": {
+    "reports": {
+      "from": "notebooklm-research.outputs.reports",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "reports": [],
+    "deep_research": []
+  },
+  "declared_outputs": {
+    "index": {
+      "path": "index.md",
+      "type": "file"
+    },
+    "pages": {
+      "path": "wiki/**",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/sources/rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 1868,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "eaf6396c67b216ea",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报.md",
+      "title": "rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报.md",
+      "size": 4062,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "duration_s": 11,
+    "progress": 100
+  },
+  "error": "",
+  "updated_at": "2026-06-07T18:02:01Z"
+}

@@ -1,0 +1,34 @@
+{
+  "pipeline_id": "3JZ_D3ELwOQ-20260607T180153",
+  "node_id": "wiki-build",
+  "run_id": "direct-wiki-build-1780855310",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [
+    "notebooklm-research"
+  ],
+  "started_at": "",
+  "finished_at": "2026-06-07T18:02:01Z",
+  "duration_s": 11,
+  "attempt": 0,
+  "progress": 100,
+  "executor": {
+    "type": "agent-skill",
+    "agent": "hermes",
+    "skill": "sop-wiki-build",
+    "entry": "scripts/run_wiki_build.sh",
+    "model": "gemini-2.5-flash-lite",
+    "webhook_route": "sop-wiki-build"
+  },
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "duration_s": 11,
+    "progress": 100
+  },
+  "error": "",
+  "updated_at": "2026-06-07T18:02:01Z"
+}

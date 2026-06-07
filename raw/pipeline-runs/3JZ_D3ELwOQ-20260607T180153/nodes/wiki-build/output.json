@@ -1,0 +1,25 @@
+{
+  "declared_outputs": {
+    "index": {
+      "path": "index.md",
+      "type": "file"
+    },
+    "pages": {
+      "path": "wiki/**",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/sources/rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报.md"
+    ]
+  },
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  }
+}

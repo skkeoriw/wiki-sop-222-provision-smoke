@@ -10,7 +10,7 @@
   "started_at": "2026-06-07T18:01:59Z",
   "finished_at": "",
   "duration_s": 0,
-  "attempt": 1,
+  "attempt": 2,
   "progress": 0,
   "inputs": {
     "source_url": "youtube-fetch.outputs.source_url"
@@ -56,5 +56,5 @@
     "started_by": "youtube-fetch"
   },
   "error": "",
-  "updated_at": "2026-06-07T18:01:59Z"
+  "updated_at": "2026-06-07T18:02:00Z"
 }

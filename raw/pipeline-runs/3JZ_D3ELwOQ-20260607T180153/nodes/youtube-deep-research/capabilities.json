@@ -2,7 +2,11 @@
   "telegram": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "message_preview": "⏳ Stage B2 开始  [3JZ_D3ELwOQ-20260607T180153]\n   🧪 YouTube 深度研究\n🎬 Flexin' On Ya (2014)",
+    "sent_at": "2026-06-07T18:02:00Z",
+    "api_ok": true,
+    "error": ""
   },
   "git": {
     "enabled": true,

@@ -9,9 +9,16 @@
       "type": "file"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "analysis_file": [
+      "raw/youtube-deep-research/3JZ_D3ELwOQ-20260607T180153/analysis.md"
+    ],
+    "transcript_file": [
+      "raw/youtube-deep-research/3JZ_D3ELwOQ-20260607T180153/transcript.txt"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

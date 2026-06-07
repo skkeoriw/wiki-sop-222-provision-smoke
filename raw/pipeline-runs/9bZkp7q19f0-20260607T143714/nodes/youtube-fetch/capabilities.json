@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage A 完成  2s  [9bZkp7q19f0-20260607T143714]\n   🔍 YouTube 元数据获取\n   🎬 PSY - GANGNAM STYLE(강남스타일) M/V\n   👤 officialpsy\n   📦 raw/youtube-metadata\n   🎬 PSY - GANGNAM STYLE(강남스타일) M/V",
+    "sent_at": "2026-06-07T14:37:19Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

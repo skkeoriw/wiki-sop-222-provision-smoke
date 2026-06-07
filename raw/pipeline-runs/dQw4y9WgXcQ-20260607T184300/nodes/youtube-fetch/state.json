@@ -1,0 +1,27 @@
+{
+  "pipeline_id": "dQw4y9WgXcQ-20260607T184300",
+  "node_id": "youtube-fetch",
+  "run_id": "direct-1780857782",
+  "status": "failed",
+  "mode": "blocking",
+  "needs": [],
+  "started_at": "2026-06-07T18:43:03Z",
+  "finished_at": "2026-06-07T18:43:04Z",
+  "duration_s": 0,
+  "attempt": 1,
+  "progress": 0,
+  "executor": {
+    "type": "agent-skill",
+    "agent": "hermes",
+    "skill": "sop-youtube-fetch",
+    "webhook_route": "sop-youtube-fetch"
+  },
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {},
+  "error": "fetch_youtube_metadata failed",
+  "updated_at": "2026-06-07T18:43:04Z"
+}

@@ -1,0 +1,4 @@
+{"ts": "2026-06-07T18:43:03Z", "event": "tg_notify_sent", "stage": "youtube-fetch", "trigger": "start", "ok": true}
+{"ts": "2026-06-07T18:43:03Z", "event": "stage_start", "stage": "youtube-fetch", "pipeline": "youtube-research-wiki"}
+{"ts": "2026-06-07T18:43:04Z", "event": "tg_notify_sent", "stage": "youtube-fetch", "trigger": "failed", "ok": true}
+{"ts": "2026-06-07T18:43:04Z", "event": "stage_failed", "stage": "youtube-fetch", "pipeline": "youtube-research-wiki", "error": "fetch_youtube_metadata failed"}

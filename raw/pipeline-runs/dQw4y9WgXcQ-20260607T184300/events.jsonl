@@ -1,0 +1,4 @@
+{"ts": "2026-06-07T18:43:03Z", "event": "telegram.sent", "pipeline_id": "dQw4y9WgXcQ-20260607T184300", "node_id": "youtube-fetch", "run_id": "direct-1780857782", "data": {"trigger": "start", "ok": true}, "sequence": 1}
+{"ts": "2026-06-07T18:43:03Z", "event": "node.started", "pipeline_id": "dQw4y9WgXcQ-20260607T184300", "node_id": "youtube-fetch", "run_id": "direct-1780857782", "data": {"status": "running", "error": ""}, "sequence": 2}
+{"ts": "2026-06-07T18:43:04Z", "event": "telegram.sent", "pipeline_id": "dQw4y9WgXcQ-20260607T184300", "node_id": "youtube-fetch", "run_id": "direct-1780857782", "data": {"trigger": "failed", "ok": true}, "sequence": 3}
+{"ts": "2026-06-07T18:43:04Z", "event": "node.failed", "pipeline_id": "dQw4y9WgXcQ-20260607T184300", "node_id": "youtube-fetch", "run_id": "direct-1780857782", "data": {"status": "failed", "error": "fetch_youtube_metadata failed"}, "sequence": 4}

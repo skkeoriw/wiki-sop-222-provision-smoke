@@ -1,0 +1,38 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=dQw4y9WgXcQ",
+  "source_type": "youtube",
+  "pipeline_id": "dQw4y9WgXcQ-20260607T184300",
+  "test_overrides": {
+    "force_notebooklm_fallback": true
+  },
+  "stage_deep_research": {
+    "run_id": "direct-youtube-deep-research-1780857256",
+    "job_id": "b12bb3c7-8b73-4326-88e9-92984bd354d8",
+    "status": "completed",
+    "start_time": "",
+    "end_time": "2026-06-07T18:35:52Z",
+    "output_files": [
+      "raw/youtube-deep-research/aqz-KE-bpKQ-20260607T183410/analysis.md",
+      "raw/youtube-deep-research/aqz-KE-bpKQ-20260607T183410/status.json",
+      "raw/notebooklm-analysis/Big-Buck-Bunny-60fps-4K---Official-Blender-Foundation-Short-Film-youtube-deep-research.md"
+    ],
+    "worker_files": {
+      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript",
+      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?format=txt",
+      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?format=srt",
+      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?format=vtt",
+      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?format=csv",
+      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?format=md",
+      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?translated=1",
+      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?format=srt&translated=1",
+      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?format=vtt&translated=1",
+      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b12bb3c7-8b73-4326-88e9-92984bd354d8/transcript?format=txt&translated=1"
+    },
+    "chunks_total": 3,
+    "chunks_done": 3
+  },
+  "fallback_used": true,
+  "fallback_mode": "local-metadata",
+  "fallback_reason": "forced notebooklm fallback",
+  "fallback_run_id": "direct-notebooklm-research-1780855319"
+}

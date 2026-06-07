@@ -1,0 +1,70 @@
+{
+  "id": "a080dd17-b105-4656-9ec7-ca9f4e9c5a92",
+  "youtube_url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+  "video_id": null,
+  "status": "completed",
+  "audio_url": null,
+  "r2_key": null,
+  "model_used": "vertex:gemini-3.1-pro-preview",
+  "summary": "本视频是风靡全球的拉丁流行金曲《Despacito》（慢慢来）的完整歌词内容。歌曲由Luis Fonsi和Daddy Yankee合作演绎，完美融合了雷鬼顿与拉丁流行元素。歌词生动描绘了一段充满激情与浪漫的求偶过程，表达了对伴侣的渴望与赞美。视频中还特别提到了波多黎各的海滩，展现了浓郁的加勒比风情，旋律洗脑，节奏感极强，是一首充满活力与荷尔蒙的经典舞曲。",
+  "key_points": [
+    "经典拉丁流行与雷鬼顿音乐的完美结合",
+    "歌词围绕浪漫、激情与循序渐进的恋爱展开",
+    "展现了波多黎各独特的加勒比海滩风情",
+    "极具感染力的副歌“Despacito”洗脑且易于传唱",
+    "强烈的节奏感与说唱元素，适合派对与狂欢"
+  ],
+  "titles": [
+    "席卷全球的拉丁神曲《Despacito》完整版",
+    "感受波多黎各的狂热！经典洗脑神曲歌词解析",
+    "荷尔蒙爆棚的雷鬼顿舞曲《Despacito》"
+  ],
+  "description": "想要重温那首火遍全球的拉丁神曲吗？本视频为您带来现象级金曲《Despacito》（慢慢来）的完整版内容。这首歌曲巧妙融合了雷鬼顿与传统拉丁流行音乐，以其洗脑的旋律、充满激情的歌词和动感的节奏征服了全世界的听众。歌词中不仅描绘了浪漫而热烈的爱情故事，还带你领略波多黎各迷人的海滩风情。无论你是拉丁音乐爱好者，还是想要寻找一首能瞬间点燃派对气氛的舞曲，这首《Despacito》都不容错过！快来跟着节奏一起感受加勒比的狂热吧！喜欢的话记得点赞、收藏并分享给你的朋友！",
+  "tags": "Despacito, 拉丁音乐, 雷鬼顿, 洗脑神曲, 流行舞曲, 音乐MV",
+  "clip_suggestions": [
+    {
+      "start": "00:01:25",
+      "end": "00:02:05",
+      "reason": "这是歌曲最经典的副歌部分，旋律极其洗脑，包含了核心词汇'Despacito'，非常适合作为短视频高潮片段传播"
+    },
+    {
+      "start": "00:02:06",
+      "end": "00:02:50",
+      "reason": "这段是经典的雷鬼顿说唱段落，节奏紧凑，充满力量感与律动，展现了歌曲动感的一面，适合卡点视频剪辑"
+    },
+    {
+      "start": "00:03:35",
+      "end": "00:04:28",
+      "reason": "这段点出了波多黎各的背景，并将副歌与说唱元素完美融合，情绪达到最高潮，适合作为视频的精彩收尾与高燃切片"
+    }
+  ],
+  "detected_lang": "en",
+  "translate_lang": "zh",
+  "tts_url": null,
+  "error": null,
+  "created_at": "2026-06-07 18:00:55",
+  "updated_at": "2026-06-07 18:02:16",
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_sec": 0,
+      "r2_key": "audio/kJQP7kiw5Fk_chunk_000.mp4",
+      "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/kJQP7kiw5Fk_chunk_000.mp4",
+      "status": "done",
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/chunk/0",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/chunk/0?translated=1"
+    }
+  ],
+  "files": {
+    "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript",
+    "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?format=txt",
+    "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?format=srt",
+    "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?format=vtt",
+    "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?format=csv",
+    "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?format=md",
+    "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?translated=1",
+    "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?format=srt&translated=1",
+    "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?format=vtt&translated=1",
+    "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/a080dd17-b105-4656-9ec7-ca9f4e9c5a92/transcript?format=txt&translated=1"
+  }
+}

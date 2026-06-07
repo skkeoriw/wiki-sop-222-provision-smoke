@@ -6,30 +6,30 @@
     "force_notebooklm_fallback": true
   },
   "stage_deep_research": {
-    "run_id": "direct-youtube-deep-research-1780842183",
-    "job_id": "89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf",
+    "run_id": "direct-youtube-deep-research-1780842375",
+    "job_id": "aef76e74-de26-4264-b8ae-369f35f52175",
     "status": "completed",
     "start_time": "",
-    "end_time": "2026-06-07T14:24:09Z",
+    "end_time": "2026-06-07T14:29:22Z",
     "output_files": [
-      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T142257/analysis.md",
-      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T142257/status.json",
-      "raw/notebooklm-analysis/Rick-Astley---Never-Gonna-Give-You-Up-Official-Video-4K-Remaster-youtube-deep-research.md"
+      "raw/youtube-deep-research/5MgBikgcWnY-20260607T142609/analysis.md",
+      "raw/youtube-deep-research/5MgBikgcWnY-20260607T142609/status.json",
+      "raw/notebooklm-analysis/The-first-20-hours----how-to-learn-anything-Josh-Kaufman-TEDxCSU-youtube-deep-research.md"
     ],
     "worker_files": {
-      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript",
-      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=txt",
-      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=srt",
-      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=vtt",
-      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=csv",
-      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=md",
-      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?translated=1",
-      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=srt&translated=1",
-      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=vtt&translated=1",
-      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=txt&translated=1"
+      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript",
+      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?format=txt",
+      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?format=srt",
+      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?format=vtt",
+      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?format=csv",
+      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?format=md",
+      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?translated=1",
+      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?format=srt&translated=1",
+      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?format=vtt&translated=1",
+      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/aef76e74-de26-4264-b8ae-369f35f52175/transcript?format=txt&translated=1"
     },
-    "chunks_total": 1,
-    "chunks_done": 1
+    "chunks_total": 4,
+    "chunks_done": 4
   },
   "stage_b_fetch": {
     "run_id": "direct-1780842371",
@@ -42,84 +42,13 @@
     "meta_file": "raw/youtube-metadata/5MgBikgcWnY.json"
   },
   "stage_b": {
-    "run_id": "direct-notebooklm-research-1780842375",
-    "start_time": "2026-06-07T14:26:15Z",
-    "end_time": "2026-06-07T14:26:17Z",
-    "duration_s": 2,
-    "status": "success",
-    "videos_processed": 1,
-    "reports_generated": 1,
-    "mindmaps_generated": 1,
-    "processed_urls": [
-      {
-        "url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
-        "success": true,
-        "notebook_id": "local-fallback",
-        "source_id": "local-871ce0c4636e",
-        "report_path": "/tmp/notebooklm_processor/5MgBikgcWnY_local-871ce0c4636e_20260607T142616Z_report.md",
-        "mindmap_path": "/tmp/notebooklm_processor/5MgBikgcWnY_local-871ce0c4636e_20260607T142616Z_mindmap.json",
-        "error": null
-      }
-    ],
-    "output_files": [
-      "raw/notebooklm-analysis/The-first-20-hours-how-to-learn-anything.md",
-      "raw/notebooklm-mindmaps/The-first-20-hours-how-to-learn-anything.json",
-      "wiki/canvas/The-first-20-hours-how-to-learn-anything.canvas"
-    ],
-    "generated_files": [
-      {
-        "type": "report",
-        "path": "/tmp/notebooklm_processor/5MgBikgcWnY_local-871ce0c4636e_20260607T142616Z_report.md",
-        "source_id": "local-871ce0c4636e",
-        "language": "zh_Hans"
-      },
-      {
-        "type": "mind-map",
-        "path": "/tmp/notebooklm_processor/5MgBikgcWnY_local-871ce0c4636e_20260607T142616Z_mindmap.json",
-        "source_id": "local-871ce0c4636e",
-        "language": "zh_Hans"
-      }
-    ],
     "source_metadata": {
-      "video_id": "5MgBikgcWnY",
       "title": "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU",
-      "author": "TEDx Talks",
-      "published_at": "2013-03-14T17:17:26Z",
       "youtube_url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
-      "thumbnail": "https://i.ytimg.com/vi/5MgBikgcWnY/hqdefault.jpg",
-      "source_type": "youtube"
-    }
-  },
-  "fallback_used": true,
-  "fallback_mode": "local-metadata",
-  "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780842375",
-  "stage_c": {
-    "run_id": "direct-wiki-build-1780842379",
-    "start_time": "2026-06-07T14:26:20Z",
-    "end_time": "2026-06-07T14:26:59Z",
-    "duration_s": 39,
-    "llm_calls": 11,
-    "pages_created_total": 47,
-    "pages_new_this_run": 9,
-    "pages_updated_this_run": 0,
-    "file_paths": [
-      "wiki/concepts/20小时学习法.md",
-      "wiki/concepts/notebooklm-cli.md",
-      "wiki/concepts/学习任何技能.md",
-      "wiki/concepts/本地降级方案.md",
-      "wiki/entities/josh-kaufman.md",
-      "wiki/entities/notebooklm.md",
-      "wiki/entities/tedx-talks.md",
-      "wiki/entities/tedxcsu.md",
-      "wiki/sources/the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md"
-    ],
-    "sources": 5,
-    "entities": 6,
-    "concepts": 36,
-    "comparisons": 0,
-    "prompt_tokens": 8043,
-    "completion_tokens": 8475,
-    "status": "success"
+      "author": "TEDx Talks"
+    },
+    "output_files": [
+      "raw/notebooklm-analysis/The-first-20-hours----how-to-learn-anything-Josh-Kaufman-TEDxCSU-youtube-deep-research.md"
+    ]
   }
 }

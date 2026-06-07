@@ -1,0 +1,159 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "aqz-KE-bpKQ-20260607T183410",
+  "run_id": "direct-wiki-build-1780857261",
+  "selected_sources": [
+    {
+      "title": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film 本地降级研究简报",
+      "slug": "big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Big Buck Bunny",
+      "slug": "big-buck-bunny",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "big-buck-bunny.md",
+      "reason": "视频标题中的核心内容，是知名的短片作品。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Blender Foundation",
+      "slug": "blender-foundation",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "blender-foundation.md",
+      "reason": "视频的制作方，是知名的开源3D创作软件基金会。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Blender",
+      "slug": "blender",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "blender.md",
+      "reason": "视频的制作工具和基金会名称，是核心实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "notebooklm.md",
+      "reason": "报告中多次提及的工具，是本次分析的上下文。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "视频的发布平台，是重要的信息来源。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "本地降级方案.md",
+      "reason": "报告的核心主题，描述了在NotebookLM不可用时的替代方案。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "fallback.md",
+      "reason": "在技术语境中，指代备用或后备方案，与本地降级方案语义相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "报告中提到的NotebookLM的命令行接口，是具体的技术组件。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "报告中提及的后续研究方向，与视频内容相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Stage B",
+      "slug": "stage-b",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "报告中提及的处理阶段，但过于具体，不适合单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Stage C",
+      "slug": "stage-c",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "报告中提及的处理阶段，但过于具体，不适合单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Git/TG/SPI/UI 验收链路",
+      "slug": "git-tg-spi-ui-验收链路",
+      "action": "skip",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "报告中提及的流程环节，但过于技术化和具体，不适合单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "notebooklm-research",
+      "slug": "notebooklm-research",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm-research.md",
+      "reason": "报告中提及的节点名称，与NotebookLM研究相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    }
+  ],
+  "estimated_llm_calls": 2,
+  "actual_llm_calls": 3,
+  "prompt_tokens": 2951,
+  "completion_tokens": 2079,
+  "generated_pages": [],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-07T18:34:30Z",
+  "generated_pages_count": 0
+}

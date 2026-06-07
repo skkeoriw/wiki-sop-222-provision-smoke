@@ -1,6 +1,6 @@
 # YouTube Video Research Wiki
 Last updated: 2026-06-07
-Total pages: 4
+Total pages: 1
 
 ## Sources
 - [[big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报]]

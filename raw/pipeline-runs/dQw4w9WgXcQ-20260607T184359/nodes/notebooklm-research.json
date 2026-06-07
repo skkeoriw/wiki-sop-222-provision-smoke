@@ -1,0 +1,111 @@
+{
+  "pipeline_id": "dQw4w9WgXcQ-20260607T184359",
+  "node_id": "notebooklm-research",
+  "run_id": "direct-notebooklm-research-1780857845",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-07T18:44:05Z",
+  "finished_at": "2026-06-07T18:44:09Z",
+  "duration_s": 2,
+  "attempt": 2,
+  "progress": 100,
+  "inputs": {
+    "source_url": "youtube-fetch.outputs.source_url",
+    "metadata_file": "youtube-fetch.outputs.metadata_file"
+  },
+  "outputs": {
+    "reports": "raw/notebooklm-analysis/*.md",
+    "mindmaps": "raw/notebooklm-mindmaps/*.json"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "agent-skill",
+    "agent": "hermes",
+    "skill": "sop-notebooklm-research",
+    "entry": "scripts/run_notebooklm_research.sh",
+    "webhook_route": "sop-notebooklm-research"
+  },
+  "declared_inputs": {
+    "source_url": {
+      "from": "youtube-fetch.outputs.source_url",
+      "required": true
+    },
+    "metadata_file": {
+      "from": "youtube-fetch.outputs.metadata_file",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "metadata_file": [
+      "raw/youtube-metadata/dQw4w9WgXcQ.json"
+    ]
+  },
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/Rick-Astley-Never-Gonna-Give-You-Up-Offi.md"
+    ],
+    "mindmaps": [
+      "raw/notebooklm-mindmaps/Rick-Astley-Never-Gonna-Give-You-Up-Offi.json"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "0b32b72550fe8ebb",
+      "producer": "notebooklm-research",
+      "output": "reports",
+      "type": "research.report",
+      "format": "markdown",
+      "path": "raw/notebooklm-analysis/Rick-Astley-Never-Gonna-Give-You-Up-Offi.md",
+      "title": "Rick-Astley-Never-Gonna-Give-You-Up-Offi.md",
+      "size": 1143,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "8e4df82ed3b88f16",
+      "producer": "notebooklm-research",
+      "output": "mindmaps",
+      "type": "research.mindmap",
+      "format": "json",
+      "path": "raw/notebooklm-mindmaps/Rick-Astley-Never-Gonna-Give-You-Up-Offi.json",
+      "title": "Rick-Astley-Never-Gonna-Give-You-Up-Offi.json",
+      "size": 731,
+      "mime_type": "application/json",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "duration_s": 2,
+    "progress": 100,
+    "fallback_used": true,
+    "fallback_mode": "local-metadata",
+    "fallback_reason": "forced notebooklm fallback"
+  },
+  "error": "",
+  "updated_at": "2026-06-07T18:44:09Z"
+}

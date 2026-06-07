@@ -1,0 +1,27 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage B 完成  2s  [dQw4w9WgXcQ-20260607T184359]\n   🔬 NotebookLM 研究\n   📄 Rick-Astley-Never-Gonna-Give-You-Up-Offi\n   📦 raw/notebooklm-analysis + raw/notebooklm-mindmaps + wiki/canvas\n   🎬 Rick Astley - Never Gonna Give You Up (Official Video) (4K R",
+    "sent_at": "2026-06-07T18:44:09Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "ccc75e2",
+    "commit_message": "chore: stage-b done [pipe:dQw4w9WgXcQ-20260607T184359] [run:direct-notebooklm-research-1780857845]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-notebooklm-research-1780857845.jsonl",
+      "logs/stage-events/direct-youtube-deep-research-1780857846.jsonl",
+      "raw/pipeline-context.json"
+    ],
+    "finished_at": "2026-06-07T18:44:09Z",
+    "error": ""
+  }
+}

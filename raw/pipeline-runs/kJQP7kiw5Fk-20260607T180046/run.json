@@ -2,18 +2,18 @@
   "pipeline_id": "kJQP7kiw5Fk-20260607T180046",
   "sop_id": "youtube-research-wiki",
   "repo": "skkeoriw/wiki-sop-222-provision-smoke",
-  "status": "running",
+  "status": "done",
   "source_url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
   "source_type": "youtube",
   "nodes": {
     "youtube-fetch": "done",
     "notebooklm-research": "done",
-    "youtube-deep-research": "running",
+    "youtube-deep-research": "done",
     "wiki-build": "done",
     "tg-notify": "done",
     "retry": "waiting"
   },
-  "last_run_id": "direct-wiki-build-1780855258",
+  "last_run_id": "direct-youtube-deep-research-1780855252",
   "started_at": "2026-06-07T18:00:49Z",
-  "updated_at": "2026-06-07T18:01:15Z"
+  "updated_at": "2026-06-07T18:02:21Z"
 }

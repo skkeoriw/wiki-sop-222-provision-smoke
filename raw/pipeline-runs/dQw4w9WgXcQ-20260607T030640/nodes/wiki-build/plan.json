@@ -1,0 +1,195 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260607T030640",
+  "run_id": "direct-wiki-build-1780801667",
+  "selected_sources": [
+    {
+      "title": "Rick Astley《Never Gonna Give You Up》核心主旨与情感承诺简报",
+      "slug": "rick-astley-never-gonna-give-you-up-核心主旨与情感承诺简报"
+    }
+  ],
+  "selected_entities": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "歌曲的演唱者，是核心实体。"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "歌曲的名称，是核心实体。"
+    }
+  ],
+  "selected_concepts": [
+    {
+      "name": "情感忠诚",
+      "slug": "情感忠诚",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "歌曲的核心主题之一，描述了对伴侣的忠诚。"
+    },
+    {
+      "name": "长期承诺",
+      "slug": "长期承诺",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "歌曲的核心主题之一，强调了关系的持久性。"
+    },
+    {
+      "name": "绝对忠诚观",
+      "slug": "绝对忠诚观",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "歌曲传达的一种高度的、无条件的忠诚。"
+    },
+    {
+      "name": "人际关系透明度",
+      "slug": "人际关系透明度",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中通过坦诚沟通来建立信任的理念。"
+    },
+    {
+      "name": "全心投入",
+      "slug": "全心投入",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "叙述者对关系的投入程度的描述。"
+    },
+    {
+      "name": "可靠性",
+      "slug": "可靠性",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中通过一系列承诺来体现的特质。"
+    },
+    {
+      "name": "持久性",
+      "slug": "持久性",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中“绝不放弃”所代表的承诺。"
+    },
+    {
+      "name": "忠诚度",
+      "slug": "忠诚度",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中“绝不乱跑并抛弃你”所代表的承诺。"
+    },
+    {
+      "name": "情感保护",
+      "slug": "情感保护",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中“绝不让你哭泣”所代表的承诺。"
+    },
+    {
+      "name": "连续性",
+      "slug": "连续性",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中“绝不告别”所代表的承诺。"
+    },
+    {
+      "name": "诚实性",
+      "slug": "诚实性",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中“绝不撒谎并伤害你”所代表的承诺。"
+    },
+    {
+      "name": "长期积淀",
+      "slug": "长期积淀",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中“认识已久”所暗示的关系基础。"
+    },
+    {
+      "name": "默契",
+      "slug": "默契",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中“心知肚明”所描述的双方理解。"
+    },
+    {
+      "name": "沟通的紧迫性",
+      "slug": "沟通的紧迫性",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "歌曲中强调将隐含的默契转化为明确表达的必要性。"
+    },
+    {
+      "name": "行为边界",
+      "slug": "行为边界",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "通过明确列举“不会做的事”来建立安全感。"
+    },
+    {
+      "name": "感知与表达的鸿沟",
+      "slug": "感知与表达的鸿沟",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "即使有默契，显性沟通依然重要。"
+    },
+    {
+      "name": "信任转化",
+      "slug": "信任转化",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "利用长期稳定的互动积累来推动关系发展。"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "直接表达感受，展现领导关系的勇气。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [],
+  "estimated_llm_calls": 22,
+  "actual_llm_calls": 6,
+  "prompt_tokens": 6069,
+  "completion_tokens": 5793,
+  "generated_pages": [
+    "wiki/sources/rick-astley-never-gonna-give-you-up-核心主旨与情感承诺简报.md",
+    "wiki/entities/rick-astley.md",
+    "wiki/entities/never-gonna-give-you-up.md",
+    "wiki/concepts/情感忠诚.md",
+    "wiki/concepts/长期承诺.md"
+  ],
+  "failed_pages": [],
+  "status": "running",
+  "updated_at": "2026-06-07T03:07:52Z"
+}

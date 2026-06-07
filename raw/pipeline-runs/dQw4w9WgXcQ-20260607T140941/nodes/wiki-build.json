@@ -2,16 +2,16 @@
   "pipeline_id": "dQw4w9WgXcQ-20260607T140941",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780841452",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-07T14:10:52Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-07T14:11:11Z",
+  "duration_s": 19,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -40,7 +40,9 @@
     "reports": [
       "raw/notebooklm-analysis/关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You.md"
     ],
-    "deep_research": []
+    "deep_research": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T140941/analysis.md"
+    ]
   },
   "declared_outputs": {
     "index": {
@@ -52,16 +54,68 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/完全承诺.md",
+      "wiki/sources/关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 997,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "a3f8132f49debbbc",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/完全承诺.md",
+      "title": "完全承诺.md",
+      "size": 4310,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "ce2bb4e94435818c",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心.md",
+      "title": "关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心.md",
+      "size": 5065,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "notebooklm-research"
+    "duration_s": 19,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T14:10:52Z"
+  "updated_at": "2026-06-07T14:11:11Z"
 }

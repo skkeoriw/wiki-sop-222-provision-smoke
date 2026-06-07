@@ -16,6 +16,48 @@
     "resolution": "context"
   },
   {
+    "id": "a909ab8f85846403",
+    "producer": "wiki-build",
+    "output": "index",
+    "type": "wiki.page",
+    "format": "markdown",
+    "path": "index.md",
+    "title": "index.md",
+    "size": 997,
+    "mime_type": "text/markdown",
+    "tags": [],
+    "metadata": {},
+    "resolution": "context"
+  },
+  {
+    "id": "a3f8132f49debbbc",
+    "producer": "wiki-build",
+    "output": "pages",
+    "type": "wiki.page",
+    "format": "markdown",
+    "path": "wiki/concepts/完全承诺.md",
+    "title": "完全承诺.md",
+    "size": 4310,
+    "mime_type": "text/markdown",
+    "tags": [],
+    "metadata": {},
+    "resolution": "context"
+  },
+  {
+    "id": "ce2bb4e94435818c",
+    "producer": "wiki-build",
+    "output": "pages",
+    "type": "wiki.page",
+    "format": "markdown",
+    "path": "wiki/sources/关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心.md",
+    "title": "关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心.md",
+    "size": 5065,
+    "mime_type": "text/markdown",
+    "tags": [],
+    "metadata": {},
+    "resolution": "context"
+  },
+  {
     "id": "0f61c3e258881cc1",
     "producer": "youtube-deep-research",
     "output": "analysis_file",

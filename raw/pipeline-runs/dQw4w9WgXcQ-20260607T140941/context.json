@@ -47,5 +47,26 @@
     },
     "chunks_total": 1,
     "chunks_done": 1
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780841452",
+    "start_time": "2026-06-07T14:10:52Z",
+    "end_time": "2026-06-07T14:11:10Z",
+    "duration_s": 17,
+    "llm_calls": 4,
+    "pages_created_total": 34,
+    "pages_new_this_run": 2,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/完全承诺.md",
+      "wiki/sources/关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心.md"
+    ],
+    "sources": 3,
+    "entities": 2,
+    "concepts": 29,
+    "comparisons": 0,
+    "prompt_tokens": 4319,
+    "completion_tokens": 4828,
+    "status": "success"
   }
 }

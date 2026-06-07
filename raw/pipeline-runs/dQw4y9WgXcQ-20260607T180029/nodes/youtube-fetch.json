@@ -1,0 +1,56 @@
+{
+  "pipeline_id": "dQw4y9WgXcQ-20260607T180029",
+  "node_id": "youtube-fetch",
+  "run_id": "direct-1780855231",
+  "status": "failed",
+  "mode": "blocking",
+  "needs": [],
+  "started_at": "2026-06-07T18:00:31Z",
+  "finished_at": "2026-06-07T18:00:33Z",
+  "duration_s": 0,
+  "attempt": 1,
+  "progress": 0,
+  "inputs": {
+    "source_url": "context.source_url"
+  },
+  "outputs": {
+    "source_url": "context.source_url",
+    "metadata_file": "raw/youtube-metadata/{pipeline_id}.json"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "agent-skill",
+    "agent": "hermes",
+    "skill": "sop-youtube-fetch",
+    "webhook_route": "sop-youtube-fetch"
+  },
+  "declared_inputs": {
+    "source_url": {
+      "from": "context.source_url",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=dQw4y9WgXcQ"
+  },
+  "declared_outputs": {
+    "source_url": {
+      "from": "context.source_url",
+      "type": "string"
+    },
+    "metadata_file": {
+      "path": "raw/youtube-metadata/{pipeline_id}.json",
+      "type": "file"
+    }
+  },
+  "actual_outputs": {},
+  "artifacts": [],
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {},
+  "error": "fetch_youtube_metadata failed",
+  "updated_at": "2026-06-07T18:00:33Z"
+}

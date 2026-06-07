@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage A 完成  2s  [kJQP7kiw5Fk-20260607T180046]\n   🔍 YouTube 元数据获取\n   🎬 Luis Fonsi - Despacito ft. Daddy Yankee\n   👤 LuisFonsiVEVO\n   📦 raw/youtube-metadata\n   🎬 Luis Fonsi - Despacito ft. Daddy Yankee",
+    "sent_at": "2026-06-07T18:00:51Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

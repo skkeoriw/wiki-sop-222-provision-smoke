@@ -11,6 +11,24 @@
   "git": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "18c36c1",
+    "commit_message": "chore: stage-b2 event [run:direct-youtube-deep-research-1780855252]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-youtube-deep-research-1780855252.jsonl",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/artifacts.json",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/context.json",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/events.jsonl",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/nodes/youtube-deep-research.json",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/nodes/youtube-deep-research/artifacts.json",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/nodes/youtube-deep-research/capabilities.json",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/nodes/youtube-deep-research/output.json",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/nodes/youtube-deep-research/state.json",
+      "raw/pipeline-runs/kJQP7kiw5Fk-20260607T180046/run.json"
+    ],
+    "finished_at": "2026-06-07T18:02:22Z",
+    "error": ""
   }
 }

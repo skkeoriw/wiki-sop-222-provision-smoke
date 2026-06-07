@@ -1,8 +1,9 @@
 # YouTube Video Research Wiki
 Last updated: 2026-06-07
-Total pages: 1
+Total pages: 4
 
 ## Sources
+- [[big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报]]
 - [[luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报]]
 - [[psy-gangnam-style-강남스타일-mv-本地降级研究简报]]
 - [[rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报]]
@@ -21,9 +22,11 @@ Total pages: 1
 - [[josh-kaufman]]
 - [[luis-fonsi]]
 - [[tedxcsu]]
+- [[big-buck-bunny]]
 - [[rick-astley]]
 - [[notebooklm]]
 - [[psy]]
+- [[blender]]
 - [[me-at-the-zoo]]
 - [[tedx-talks]]
 
@@ -61,6 +64,7 @@ Total pages: 1
 - [[完全承诺]]
 - [[主动情感表达]]
 - [[默契]]
+- [[blender-foundation]]
 - [[沟通延迟]]
 - [[诚实性]]
 - [[信任转化]]

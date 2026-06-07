@@ -1,0 +1,150 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "aqz-KE-bpKQ-20260607T180205",
+  "run_id": "direct-wiki-build-1780855336",
+  "selected_sources": [
+    {
+      "title": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film 本地降级研究简报",
+      "slug": "big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [
+    {
+      "name": "Blender",
+      "slug": "blender",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "视频的作者/频道，是一个知名的开源3D创作软件。"
+    },
+    {
+      "name": "Big Buck Bunny",
+      "slug": "big-buck-bunny",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "视频的标题，是一个知名的动画短片。"
+    }
+  ],
+  "selected_concepts": [
+    {
+      "name": "Blender Foundation",
+      "slug": "blender-foundation",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "视频的制作方，与Blender软件相关联的组织。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "视频的发布平台，与现有概念'YouTube 深度研究'相关联。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "notebooklm.md",
+      "reason": "报告中提到的工具，用于生成研究材料。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "报告中提到的工具接口，与NotebookLM相关。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "本地降级方案.md",
+      "reason": "报告的核心主题，描述了在主系统不可用时采用的替代方案。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "fallback.md",
+      "reason": "报告中提到的降级机制，与'本地降级方案'语义相近。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "报告中提到的研究方向，与视频发布平台相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "notebooklm-research",
+      "slug": "notebooklm-research",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm-research.md",
+      "reason": "报告中提到的研究节点，与NotebookLM相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "4K",
+      "slug": "4k",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "视频分辨率，技术细节但不够核心，不值得单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "60fps",
+      "slug": "60fps",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "视频帧率，技术细节但不够核心，不值得单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    }
+  ],
+  "estimated_llm_calls": 5,
+  "actual_llm_calls": 6,
+  "prompt_tokens": 4818,
+  "completion_tokens": 4681,
+  "generated_pages": [
+    "wiki/concepts/blender-foundation.md",
+    "wiki/entities/big-buck-bunny.md",
+    "wiki/entities/blender.md",
+    "wiki/sources/big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报.md"
+  ],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-07T18:02:34Z",
+  "generated_pages_count": 4
+}

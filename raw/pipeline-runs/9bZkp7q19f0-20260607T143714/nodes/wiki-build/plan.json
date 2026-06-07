@@ -1,0 +1,189 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "9bZkp7q19f0-20260607T143714",
+  "run_id": "direct-wiki-build-1780843045",
+  "selected_sources": [
+    {
+      "title": "PSY - GANGNAM STYLE(강남스타일) M/V 本地降级研究简报",
+      "slug": "psy-gangnam-style-강남스타일-mv-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [
+    {
+      "name": "PSY",
+      "slug": "psy",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "视频的作者/艺人，是核心实体。"
+    },
+    {
+      "name": "officialpsy",
+      "slug": "officialpsy",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "视频的发布频道，是重要的组织/平台实体。"
+    }
+  ],
+  "selected_concepts": [
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到的备用机制，是通用的技术概念。"
+    },
+    {
+      "name": "notebooklm-research",
+      "slug": "notebooklm-research",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到的一个节点/任务，与NotebookLM相关。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "视频发布平台，与现有wiki中的'YouTube 深度研究'概念相关联。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm.md",
+      "reason": "分析报告中提到的工具，与现有wiki中的'NotebookLM'实体相同。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "分析报告中提到的工具的命令行接口，与现有wiki中的'NotebookLM CLI'概念相同。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "本地降级方案.md",
+      "reason": "报告中明确提到的降级方案，与现有wiki中的'本地降级方案'概念相同。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "报告中提到的后续处理建议，与现有wiki中的'YouTube 深度研究'概念相同。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "元数据",
+      "slug": "元数据",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到的用于生成研究材料的基础信息，是通用的技术概念。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "研究材料",
+      "slug": "研究材料",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提到的产出物，是通用的概念。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "Stage A",
+      "slug": "stage-a",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到的处理阶段，是流程中的概念。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "Stage B",
+      "slug": "stage-b",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到的处理阶段，是流程中的概念。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "Stage C",
+      "slug": "stage-c",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到的处理阶段，是流程中的概念。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "sidecar",
+      "slug": "sidecar",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到的一个辅助处理的概念，常用于软件架构。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "补充分析",
+      "slug": "补充分析",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提到的分析类型，是通用的概念。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    }
+  ],
+  "estimated_llm_calls": 6,
+  "actual_llm_calls": 7,
+  "prompt_tokens": 4886,
+  "completion_tokens": 5517,
+  "generated_pages": [
+    "wiki/concepts/fallback.md",
+    "wiki/concepts/notebooklm-research.md",
+    "wiki/entities/officialpsy.md",
+    "wiki/entities/psy.md",
+    "wiki/sources/psy-gangnam-style-강남스타일-mv-本地降级研究简报.md"
+  ],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-07T14:37:49Z",
+  "generated_pages_count": 5
+}

@@ -7,6 +7,31 @@
   "git": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "22d4034",
+    "commit_message": "chore: stage-c event [run:direct-wiki-build-1780855310]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-wiki-build-1780855310.jsonl",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/artifacts.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/context.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/events.jsonl",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/notebooklm-research.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/notebooklm-research/capabilities.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/notebooklm-research/state.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/wiki-build.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/wiki-build/artifacts.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/wiki-build/capabilities.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/wiki-build/input.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/wiki-build/output.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/wiki-build/state.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/youtube-deep-research.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/youtube-deep-research/capabilities.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/nodes/youtube-deep-research/state.json",
+      "raw/pipeline-runs/3JZ_D3ELwOQ-20260607T180153/run.json"
+    ],
+    "finished_at": "2026-06-07T18:02:02Z",
+    "error": ""
   }
 }

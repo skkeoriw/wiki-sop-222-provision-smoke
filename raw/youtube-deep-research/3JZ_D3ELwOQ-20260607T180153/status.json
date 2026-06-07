@@ -1,0 +1,70 @@
+{
+  "id": "f35babdc-b8fc-4529-9210-ea89885e13ae",
+  "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+  "video_id": null,
+  "status": "completed",
+  "audio_url": null,
+  "r2_key": null,
+  "model_used": "vertex:gemini-3.1-pro-preview",
+  "summary": "本期视频是Ray William Johnson的经典搞笑解说。视频主要点评了三个爆笑网络片段：首先是一只肌肉极其发达、仿佛天天在健身房举重的袋鼠，让人感到畏惧；其次是一只试图把坚果埋在狗狗毛发里的宠物松鼠，而狗狗表现得极其冷漠，画面十分逗趣；最后是一段第一视角的高速警匪追逐录像，嫌疑人神似《绝命毒师》里的吸毒者，博主借此对警察的硬核执法和毒驾行为进行了幽默又犀利的吐槽。",
+  "key_points": [
+    "肌肉极其发达的袋鼠引发爆笑吐槽，博主戏称其天天拿考拉练卧推",
+    "宠物松鼠试图在冷漠狗狗的毛发里藏坚果，画面极具反差萌",
+    "博主对比自家猫咪与视频中狗狗对松鼠的截然不同的反应",
+    "阿肯色州野生动物保护警官的第一视角硬核高速追车执法录像",
+    "嫌疑人神似《绝命毒师》角色，博主借此呼吁远离毒品与危险驾驶"
+  ],
+  "titles": [
+    "肌肉袋鼠在线秀身材？这绝对是我见过最硬核的动物！",
+    "松鼠把坚果藏在狗毛里，狗狗的反应亮了！",
+    "真实版《绝命毒师》上演？第一视角体验硬核警匪追逐！"
+  ],
+  "description": "欢迎收看本期Ray William Johnson的爆笑网络视频解说！今天我们为你带来全网最奇葩、最搞笑的三个名场面。首先登场的是一只肌肉发达得像外星人的袋鼠，难道它每天都在健身房举铁吗？接着画风一转，一只可爱又天真的宠物松鼠竟然试图把坚果埋在一只生无可恋的狗狗毛发里，反差萌绝对让你捧腹大笑！最后，我们将带你以第一视角体验一场惊险刺激的高速警匪追逐战，阿肯色州硬核警察当场逮捕神似《绝命毒师》杰西·平克曼的毒驾嫌疑人。搞笑吐槽与犀利点评齐飞，千万别错过！喜欢的话记得点赞分享，并在评论区告诉我们你最喜欢哪一段！",
+  "tags": "搞笑解说, 肌肉袋鼠, 宠物松鼠, 警匪追逐, 绝命毒师, 奇葩视频",
+  "clip_suggestions": [
+    {
+      "start": "00:00:02",
+      "end": "00:01:04",
+      "reason": "肌肉袋鼠的视觉冲击力极强，配合博主“卧推考拉”的幽默配音，非常适合作为搞笑短视频在社交平台传播"
+    },
+    {
+      "start": "00:01:04",
+      "end": "00:02:05",
+      "reason": "松鼠在狗毛里藏坚果的行为极具反差萌，狗狗的冷漠反应是完美的笑点，适合萌宠类账号做切片"
+    },
+    {
+      "start": "00:02:05",
+      "end": "00:03:36",
+      "reason": "第一视角的高速追车极具紧张感，结合博主对《绝命毒师》的吐槽和对毒驾的点评，内容丰富且具有话题讨论度"
+    }
+  ],
+  "detected_lang": "en",
+  "translate_lang": "zh",
+  "tts_url": null,
+  "error": null,
+  "created_at": "2026-06-07 18:02:01",
+  "updated_at": "2026-06-07 18:03:08",
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_sec": 0,
+      "r2_key": "audio/3JZ_D3ELwOQ_chunk_000.mp4",
+      "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/3JZ_D3ELwOQ_chunk_000.mp4",
+      "status": "done",
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/chunk/0",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/chunk/0?translated=1"
+    }
+  ],
+  "files": {
+    "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript",
+    "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=txt",
+    "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=srt",
+    "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=vtt",
+    "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=csv",
+    "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=md",
+    "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?translated=1",
+    "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=srt&translated=1",
+    "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=vtt&translated=1",
+    "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=txt&translated=1"
+  }
+}

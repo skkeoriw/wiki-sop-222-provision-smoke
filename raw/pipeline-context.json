@@ -1,32 +1,32 @@
 {
-  "source_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "source_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
   "source_type": "youtube",
-  "pipeline_id": "dQw4w9WgXcQ-20260607T180139",
+  "pipeline_id": "3JZ_D3ELwOQ-20260607T180153",
   "test_overrides": {
     "force_notebooklm_fallback": true
   },
   "stage_deep_research": {
-    "run_id": "direct-youtube-deep-research-1780855305",
-    "job_id": "9b395dd6-f9ca-4558-82f6-116932968c64",
+    "run_id": "direct-youtube-deep-research-1780855319",
+    "job_id": "f35babdc-b8fc-4529-9210-ea89885e13ae",
     "status": "completed",
     "start_time": "",
-    "end_time": "2026-06-07T18:02:49Z",
+    "end_time": "2026-06-07T18:03:19Z",
     "output_files": [
-      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T180139/analysis.md",
-      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T180139/status.json",
-      "raw/notebooklm-analysis/Rick-Astley---Never-Gonna-Give-You-Up-Official-Video-4K-Remaster-youtube-deep-research.md"
+      "raw/youtube-deep-research/3JZ_D3ELwOQ-20260607T180153/analysis.md",
+      "raw/youtube-deep-research/3JZ_D3ELwOQ-20260607T180153/status.json",
+      "raw/notebooklm-analysis/Flexin-On-Ya-2014-youtube-deep-research.md"
     ],
     "worker_files": {
-      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript",
-      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?format=txt",
-      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?format=srt",
-      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?format=vtt",
-      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?format=csv",
-      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?format=md",
-      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?translated=1",
-      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?format=srt&translated=1",
-      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?format=vtt&translated=1",
-      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9b395dd6-f9ca-4558-82f6-116932968c64/transcript?format=txt&translated=1"
+      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript",
+      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=txt",
+      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=srt",
+      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=vtt",
+      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=csv",
+      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=md",
+      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?translated=1",
+      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=srt&translated=1",
+      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=vtt&translated=1",
+      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/f35babdc-b8fc-4529-9210-ea89885e13ae/transcript?format=txt&translated=1"
     },
     "chunks_total": 1,
     "chunks_done": 1
@@ -34,25 +34,45 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780855252",
+  "fallback_run_id": "direct-notebooklm-research-1780855305",
   "stage_b_fetch": {
-    "run_id": "direct-1780855300",
-    "video_id": "dQw4w9WgXcQ",
-    "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
-    "author": "Rick Astley",
-    "published_at": "2009-10-25T06:57:33Z",
-    "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
-    "meta_file": "raw/youtube-metadata/dQw4w9WgXcQ.json"
+    "run_id": "direct-1780855314",
+    "video_id": "3JZ_D3ELwOQ",
+    "title": "Flexin' On Ya (2014)",
+    "author": "Ray William Johnson",
+    "published_at": "2014-02-12T02:49:55Z",
+    "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+    "thumbnail": "https://i.ytimg.com/vi/3JZ_D3ELwOQ/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/3JZ_D3ELwOQ.json"
   },
   "stage_b": {
     "source_metadata": {
-      "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
-      "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "author": "Rick Astley"
+      "title": "Flexin' On Ya (2014)",
+      "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+      "author": "Ray William Johnson"
     },
     "output_files": [
-      "raw/notebooklm-analysis/Rick-Astley---Never-Gonna-Give-You-Up-Official-Video-4K-Remaster-youtube-deep-research.md"
+      "raw/notebooklm-analysis/Flexin-On-Ya-2014-youtube-deep-research.md"
     ]
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780855310",
+    "start_time": "2026-06-07T18:01:51Z",
+    "end_time": "2026-06-07T18:01:59Z",
+    "duration_s": 8,
+    "llm_calls": 3,
+    "pages_created_total": 60,
+    "pages_new_this_run": 1,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/sources/rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报.md"
+    ],
+    "sources": 9,
+    "entities": 12,
+    "concepts": 39,
+    "comparisons": 0,
+    "prompt_tokens": 2808,
+    "completion_tokens": 2600,
+    "status": "success"
   }
 }

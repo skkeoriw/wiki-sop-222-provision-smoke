@@ -98,5 +98,23 @@
       "mode": "local-metadata",
       "reason": "forced notebooklm fallback"
     }
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780857851",
+    "start_time": "2026-06-07T18:44:11Z",
+    "end_time": "2026-06-07T18:44:37Z",
+    "duration_s": 26,
+    "llm_calls": 3,
+    "pages_created_total": 64,
+    "pages_new_this_run": 0,
+    "pages_updated_this_run": 0,
+    "file_paths": [],
+    "sources": 10,
+    "entities": 14,
+    "concepts": 40,
+    "comparisons": 0,
+    "prompt_tokens": 2979,
+    "completion_tokens": 5352,
+    "status": "success"
   }
 }

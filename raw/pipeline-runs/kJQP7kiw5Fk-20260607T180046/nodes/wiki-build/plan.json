@@ -1,0 +1,130 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "kJQP7kiw5Fk-20260607T180046",
+  "run_id": "direct-wiki-build-1780855258",
+  "selected_sources": [
+    {
+      "title": "Luis Fonsi - Despacito ft. Daddy Yankee 本地降级研究简报",
+      "slug": "luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [
+    {
+      "name": "Luis Fonsi",
+      "slug": "luis-fonsi",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "视频的演唱者，是重要的实体。"
+    },
+    {
+      "name": "Daddy Yankee",
+      "slug": "daddy-yankee",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "视频的合作演唱者，是重要的实体。"
+    }
+  ],
+  "selected_concepts": [],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "LuisFonsiVEVO",
+      "slug": "luisfonsivevo",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "视频的发布频道，是重要的实体。",
+      "kind": "entitie",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "视频平台，与现有 wiki 页面'YouTube 深度研究'语义相关。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "notebooklm.md",
+      "reason": "提及的工具，与现有 wiki 页面'NotebookLM'语义相同。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "提及的工具命令行接口，与现有 wiki 页面'NotebookLM CLI'语义相同。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "本地降级方案.md",
+      "reason": "报告中明确提到的概念，与现有 wiki 页面'本地降级方案'语义相同。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "fallback.md",
+      "reason": "报告中提到的备用机制，与现有 wiki 页面'fallback'语义相同。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "报告中提及的后续处理方向，与现有 wiki 页面'YouTube 深度研究'语义相同。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "notebooklm-research",
+      "slug": "notebooklm-research",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "notebooklm-research.md",
+      "reason": "报告中提及的研究节点，与现有 wiki 页面'notebooklm-research'语义相同。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    }
+  ],
+  "estimated_llm_calls": 4,
+  "actual_llm_calls": 5,
+  "prompt_tokens": 3996,
+  "completion_tokens": 3186,
+  "generated_pages": [
+    "wiki/entities/daddy-yankee.md",
+    "wiki/entities/luis-fonsi.md",
+    "wiki/sources/luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报.md"
+  ],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-07T18:01:11Z",
+  "generated_pages_count": 3
+}

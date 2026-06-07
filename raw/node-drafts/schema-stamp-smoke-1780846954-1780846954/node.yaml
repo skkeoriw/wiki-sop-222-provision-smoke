@@ -1,0 +1,36 @@
+id: schema-stamp-smoke-1780846954
+title: Schema Stamp Smoke
+description: ''
+version: 0.1-draft
+skill:
+  id: demo-skill
+  install_command: bash <(curl -fsSL https://skill.vyibc.com/install-demo.sh)
+  source: install-command
+executor:
+  type: agent-skill
+  agent: hermes
+  skill: demo-skill
+  entry: scripts/run_schema_stamp_smoke_1780846954.sh
+mode: blocking
+needs: []
+inputs:
+  input:
+    type: auto
+    required: true
+    from: ''
+outputs:
+  artifact:
+    type: file
+    path: raw/schema-stamp-smoke-1780846954/{pipeline_id}/artifact
+capabilities:
+  git:
+    enabled: true
+    required: false
+  telegram:
+    enabled: true
+    required: false
+  sse:
+    enabled: true
+    required: true
+ui:
+  category: custom

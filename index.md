@@ -1,8 +1,9 @@
 # YouTube Video Research Wiki
 Last updated: 2026-06-07
-Total pages: 5
+Total pages: 3
 
 ## Sources
+- [[luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报]]
 - [[psy-gangnam-style-강남스타일-mv-本地降级研究简报]]
 - [[me-at-the-zoo-本地降级研究简报]]
 - [[never-gonna-give-you-up-核心承诺与关系稳定性深度简报]]
@@ -12,10 +13,12 @@ Total pages: 5
 - [[the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报]]
 
 ## Entities
+- [[daddy-yankee]]
 - [[officialpsy]]
 - [[jawed]]
 - [[never-gonna-give-you-up]]
 - [[josh-kaufman]]
+- [[luis-fonsi]]
 - [[tedxcsu]]
 - [[rick-astley]]
 - [[notebooklm]]

@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "⏳ Stage B2 开始  [aqz-KE-bpKQ-20260607T180205]\n   🧪 YouTube 深度研究\n🎬 Big Buck Bunny 60fps 4K - Official Blender Foundation Short ",
+    "sent_at": "2026-06-07T18:02:12Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

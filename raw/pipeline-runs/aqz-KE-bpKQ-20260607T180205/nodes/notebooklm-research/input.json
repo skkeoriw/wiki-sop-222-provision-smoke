@@ -1,0 +1,19 @@
+{
+  "declared_inputs": {
+    "source_url": {
+      "from": "youtube-fetch.outputs.source_url",
+      "required": true
+    },
+    "metadata_file": {
+      "from": "youtube-fetch.outputs.metadata_file",
+      "required": true
+    }
+  },
+  "optional_inputs": {},
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+    "metadata_file": [
+      "raw/youtube-metadata/aqz-KE-bpKQ.json"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage B 完成  2s  [dQw4w9WgXcQ-20260607T180139]\n   🔬 NotebookLM 研究\n   📄 Rick-Astley-Never-Gonna-Give-You-Up-Offi\n   📦 raw/notebooklm-analysis + raw/notebooklm-mindmaps + wiki/canvas\n   🎬 Rick Astley - Never Gonna Give You Up (Official Video) (4K R",
+    "sent_at": "2026-06-07T18:01:49Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "4a7b9aa",
+    "commit_message": "chore: stage-b done [pipe:dQw4w9WgXcQ-20260607T180139] [run:direct-notebooklm-research-1780855305]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-notebooklm-research-1780855305.jsonl",
+      "logs/stage-events/direct-youtube-deep-research-1780855305.jsonl",
+      "raw/notebooklm-analysis/Rick-Astley-Never-Gonna-Give-You-Up-Offi.md",
+      "raw/notebooklm-mindmaps/Rick-Astley-Never-Gonna-Give-You-Up-Offi.json",
+      "raw/notebooklm-mindmaps/Rick-Astley-Never-Gonna-Give-You-Up-Offi.md",
+      "raw/pipeline-context.json",
+      "wiki/canvas/Rick-Astley-Never-Gonna-Give-You-Up-Offi.canvas"
+    ],
+    "finished_at": "2026-06-07T18:01:48Z",
+    "error": ""
+  }
+}

@@ -7,13 +7,13 @@
   "source_type": "youtube",
   "nodes": {
     "youtube-fetch": "done",
-    "notebooklm-research": "waiting",
-    "youtube-deep-research": "waiting",
+    "notebooklm-research": "done",
+    "youtube-deep-research": "running",
     "wiki-build": "waiting",
     "tg-notify": "waiting",
     "retry": "waiting"
   },
-  "last_run_id": "direct-1780855300",
+  "last_run_id": "direct-notebooklm-research-1780855305",
   "started_at": "2026-06-07T18:01:41Z",
-  "updated_at": "2026-06-07T18:01:43Z"
+  "updated_at": "2026-06-07T18:01:49Z"
 }

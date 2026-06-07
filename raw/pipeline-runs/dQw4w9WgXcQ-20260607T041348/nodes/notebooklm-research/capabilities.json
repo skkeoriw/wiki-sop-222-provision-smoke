@@ -11,6 +11,31 @@
   "git": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "1657b3b",
+    "commit_message": "chore: stage-b event [run:direct-notebooklm-research-1780805634]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-notebooklm-research-1780805634.jsonl",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/context.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/events.jsonl",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/notebooklm-research.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/notebooklm-research/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/notebooklm-research/capabilities.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/notebooklm-research/input.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/notebooklm-research/output.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/notebooklm-research/state.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/youtube-deep-research.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/youtube-deep-research/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/youtube-deep-research/capabilities.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/youtube-deep-research/input.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/youtube-deep-research/output.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/youtube-deep-research/state.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/nodes/youtube-fetch/capabilities.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T041348/run.json"
+    ],
+    "finished_at": "2026-06-07T04:14:57Z",
+    "error": ""
   }
 }

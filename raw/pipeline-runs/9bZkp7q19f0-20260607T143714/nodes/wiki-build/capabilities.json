@@ -7,6 +7,23 @@
   "git": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "18f8728",
+    "commit_message": "chore: stage-c event [run:direct-wiki-build-1780843045]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-wiki-build-1780843045.jsonl",
+      "raw/pipeline-runs/9bZkp7q19f0-20260607T143714/artifacts.json",
+      "raw/pipeline-runs/9bZkp7q19f0-20260607T143714/context.json",
+      "raw/pipeline-runs/9bZkp7q19f0-20260607T143714/events.jsonl",
+      "raw/pipeline-runs/9bZkp7q19f0-20260607T143714/nodes/wiki-build.json",
+      "raw/pipeline-runs/9bZkp7q19f0-20260607T143714/nodes/wiki-build/artifacts.json",
+      "raw/pipeline-runs/9bZkp7q19f0-20260607T143714/nodes/wiki-build/output.json",
+      "raw/pipeline-runs/9bZkp7q19f0-20260607T143714/nodes/wiki-build/state.json",
+      "raw/pipeline-runs/9bZkp7q19f0-20260607T143714/run.json"
+    ],
+    "finished_at": "2026-06-07T14:37:52Z",
+    "error": ""
   }
 }

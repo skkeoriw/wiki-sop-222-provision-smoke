@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage A 完成  2s  [jNQXAC9IVRw-20260607T143410]\n   🔍 YouTube 元数据获取\n   🎬 Me at the zoo\n   👤 jawed\n   📦 raw/youtube-metadata\n   🎬 Me at the zoo",
+    "sent_at": "2026-06-07T14:34:14Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

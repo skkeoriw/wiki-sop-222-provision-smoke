@@ -1,0 +1,23 @@
+{
+  "declared_outputs": {
+    "source_url": {
+      "from": "context.source_url",
+      "type": "string"
+    },
+    "metadata_file": {
+      "path": "raw/youtube-metadata/{pipeline_id}.json",
+      "type": "file"
+    }
+  },
+  "actual_outputs": {
+    "source_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+    "metadata_file": [
+      "raw/youtube-metadata/jNQXAC9IVRw.json"
+    ]
+  },
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  }
+}

@@ -90,3 +90,7 @@ To be continued... I don't know. I don't know. I don't know. I don't know. I don
 ```
 要继续... 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 我不知道。 你 我不知道。 我不知道。 我不知道。 让我们去吧。 我不知道。 哦,我的神。 哦,我的神。 哦,我的神。 哦,我的神。 哦,我的神。 哦,我的神。
 ```
+
+## Transcript
+
+To be continued... I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. You I don't know. I don't know. I don't know. Let's go. I don't know. Oh, my God. Oh, my God. Oh, my God. Oh, my God. Oh, my God. Oh, my God.

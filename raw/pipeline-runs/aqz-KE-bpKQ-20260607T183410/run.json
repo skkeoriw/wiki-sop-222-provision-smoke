@@ -9,11 +9,11 @@
     "youtube-fetch": "done",
     "notebooklm-research": "done",
     "youtube-deep-research": "running",
-    "wiki-build": "waiting",
+    "wiki-build": "done",
     "tg-notify": "waiting",
     "retry": "waiting"
   },
-  "last_run_id": "direct-notebooklm-research-1780857256",
+  "last_run_id": "direct-wiki-build-1780857261",
   "started_at": "2026-06-07T18:34:12Z",
-  "updated_at": "2026-06-07T18:34:20Z"
+  "updated_at": "2026-06-07T18:34:31Z"
 }

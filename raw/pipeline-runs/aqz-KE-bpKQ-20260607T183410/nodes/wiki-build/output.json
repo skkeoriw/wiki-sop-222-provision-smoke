@@ -9,10 +9,17 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": []
+  },
   "validation": {
-    "status": "pending",
-    "missing_outputs": [],
+    "status": "warning",
+    "missing_outputs": [
+      "pages"
+    ],
     "unexpected_outputs": []
   }
 }

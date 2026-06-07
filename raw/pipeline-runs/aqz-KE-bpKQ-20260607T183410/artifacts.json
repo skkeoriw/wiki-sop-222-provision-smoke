@@ -30,6 +30,20 @@
     "resolution": "context"
   },
   {
+    "id": "a909ab8f85846403",
+    "producer": "wiki-build",
+    "output": "index",
+    "type": "wiki.page",
+    "format": "markdown",
+    "path": "index.md",
+    "title": "index.md",
+    "size": 2022,
+    "mime_type": "text/markdown",
+    "tags": [],
+    "metadata": {},
+    "resolution": "context"
+  },
+  {
     "id": "ba8c802014126f4e",
     "producer": "youtube-fetch",
     "output": "metadata_file",

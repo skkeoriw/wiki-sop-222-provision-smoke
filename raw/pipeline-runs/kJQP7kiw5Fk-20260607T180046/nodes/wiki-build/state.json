@@ -1,15 +1,15 @@
 {
   "pipeline_id": "kJQP7kiw5Fk-20260607T180046",
   "node_id": "wiki-build",
-  "run_id": "direct-wiki-build-1780855258",
+  "run_id": "direct-wiki-build-1780855336",
   "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-07T18:00:58Z",
-  "finished_at": "2026-06-07T18:01:13Z",
-  "duration_s": 15,
+  "finished_at": "2026-06-07T18:02:35Z",
+  "duration_s": 19,
   "attempt": 2,
   "progress": 100,
   "executor": {
@@ -26,9 +26,9 @@
     "unexpected_outputs": []
   },
   "extra": {
-    "duration_s": 15,
+    "duration_s": 19,
     "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T18:01:13Z"
+  "updated_at": "2026-06-07T18:02:35Z"
 }

@@ -14,9 +14,10 @@
       "index.md"
     ],
     "pages": [
-      "wiki/entities/daddy-yankee.md",
-      "wiki/entities/luis-fonsi.md",
-      "wiki/sources/luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报.md"
+      "wiki/concepts/blender-foundation.md",
+      "wiki/entities/big-buck-bunny.md",
+      "wiki/entities/blender.md",
+      "wiki/sources/big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报.md"
     ]
   },
   "validation": {

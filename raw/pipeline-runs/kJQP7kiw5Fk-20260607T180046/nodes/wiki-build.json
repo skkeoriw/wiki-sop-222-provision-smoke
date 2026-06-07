@@ -1,15 +1,15 @@
 {
   "pipeline_id": "kJQP7kiw5Fk-20260607T180046",
   "node_id": "wiki-build",
-  "run_id": "direct-wiki-build-1780855258",
+  "run_id": "direct-wiki-build-1780855336",
   "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-07T18:00:58Z",
-  "finished_at": "2026-06-07T18:01:13Z",
-  "duration_s": 15,
+  "finished_at": "2026-06-07T18:02:35Z",
+  "duration_s": 19,
   "attempt": 2,
   "progress": 100,
   "inputs": {
@@ -40,7 +40,9 @@
     "reports": [
       "raw/notebooklm-analysis/Luis-Fonsi-Despacito-ft-Daddy-Yankee-本地降.md"
     ],
-    "deep_research": []
+    "deep_research": [
+      "raw/youtube-deep-research/kJQP7kiw5Fk-20260607T180046/analysis.md"
+    ]
   },
   "declared_outputs": {
     "index": {
@@ -57,9 +59,10 @@
       "index.md"
     ],
     "pages": [
-      "wiki/entities/daddy-yankee.md",
-      "wiki/entities/luis-fonsi.md",
-      "wiki/sources/luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报.md"
+      "wiki/concepts/blender-foundation.md",
+      "wiki/entities/big-buck-bunny.md",
+      "wiki/entities/blender.md",
+      "wiki/sources/big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报.md"
     ]
   },
   "artifacts": [
@@ -71,49 +74,63 @@
       "format": "markdown",
       "path": "index.md",
       "title": "index.md",
-      "size": 1774,
+      "size": 2022,
       "mime_type": "text/markdown",
       "tags": [],
       "metadata": {},
       "resolution": "context"
     },
     {
-      "id": "e95dca6cbf9cd323",
+      "id": "d3594988947a07b4",
       "producer": "wiki-build",
       "output": "pages",
       "type": "wiki.page",
       "format": "markdown",
-      "path": "wiki/entities/daddy-yankee.md",
-      "title": "daddy-yankee.md",
-      "size": 2028,
+      "path": "wiki/concepts/blender-foundation.md",
+      "title": "blender-foundation.md",
+      "size": 3998,
       "mime_type": "text/markdown",
       "tags": [],
       "metadata": {},
       "resolution": "context"
     },
     {
-      "id": "9bd57a394b119034",
+      "id": "201fea686f71808a",
       "producer": "wiki-build",
       "output": "pages",
       "type": "wiki.page",
       "format": "markdown",
-      "path": "wiki/entities/luis-fonsi.md",
-      "title": "luis-fonsi.md",
-      "size": 2095,
+      "path": "wiki/entities/big-buck-bunny.md",
+      "title": "big-buck-bunny.md",
+      "size": 1890,
       "mime_type": "text/markdown",
       "tags": [],
       "metadata": {},
       "resolution": "context"
     },
     {
-      "id": "fa48e79899b19426",
+      "id": "b5fac977f4c117d5",
       "producer": "wiki-build",
       "output": "pages",
       "type": "wiki.page",
       "format": "markdown",
-      "path": "wiki/sources/luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报.md",
-      "title": "luis-fonsi-despacito-ft-daddy-yankee-本地降级研究简报.md",
-      "size": 3678,
+      "path": "wiki/entities/blender.md",
+      "title": "blender.md",
+      "size": 2193,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "48d925bf32e47aae",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报.md",
+      "title": "big-buck-bunny-60fps-4k-official-blender-foundation-short-film-本地降级研究简报.md",
+      "size": 4802,
       "mime_type": "text/markdown",
       "tags": [],
       "metadata": {},
@@ -126,9 +143,9 @@
     "unexpected_outputs": []
   },
   "extra": {
-    "duration_s": 15,
+    "duration_s": 19,
     "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T18:01:13Z"
+  "updated_at": "2026-06-07T18:02:35Z"
 }

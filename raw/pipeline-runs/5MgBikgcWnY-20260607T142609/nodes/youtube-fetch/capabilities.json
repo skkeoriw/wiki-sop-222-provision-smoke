@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage A 完成  2s  [5MgBikgcWnY-20260607T142609]\n   🔍 YouTube 元数据获取\n   🎬 The first 20 hours -- how to learn anything | Josh\n   👤 TEDx Talks\n   📦 raw/youtube-metadata\n   🎬 The first 20 hours -- how to learn anything | Josh Kaufman |",
+    "sent_at": "2026-06-07T14:26:14Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

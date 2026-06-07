@@ -1,0 +1,51 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
+  "source_type": "youtube",
+  "pipeline_id": "5MgBikgcWnY-20260607T142609",
+  "test_overrides": {
+    "force_notebooklm_fallback": true
+  },
+  "stage_deep_research": {
+    "run_id": "direct-youtube-deep-research-1780842183",
+    "job_id": "89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf",
+    "status": "completed",
+    "start_time": "",
+    "end_time": "2026-06-07T14:24:09Z",
+    "output_files": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T142257/analysis.md",
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T142257/status.json",
+      "raw/notebooklm-analysis/Rick-Astley---Never-Gonna-Give-You-Up-Official-Video-4K-Remaster-youtube-deep-research.md"
+    ],
+    "worker_files": {
+      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript",
+      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=txt",
+      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=srt",
+      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=vtt",
+      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=csv",
+      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=md",
+      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?translated=1",
+      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=srt&translated=1",
+      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=vtt&translated=1",
+      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/89a5121c-f9b3-4c66-b89f-2c5df1e0e6cf/transcript?format=txt&translated=1"
+    },
+    "chunks_total": 1,
+    "chunks_done": 1
+  },
+  "stage_b_fetch": {
+    "run_id": "direct-1780842371",
+    "video_id": "5MgBikgcWnY",
+    "title": "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU",
+    "author": "TEDx Talks",
+    "published_at": "2013-03-14T17:17:26Z",
+    "youtube_url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
+    "thumbnail": "https://i.ytimg.com/vi/5MgBikgcWnY/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/5MgBikgcWnY.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU",
+      "youtube_url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
+      "author": "TEDx Talks"
+    }
+  }
+}

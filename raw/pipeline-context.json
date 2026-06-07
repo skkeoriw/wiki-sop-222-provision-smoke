@@ -1,7 +1,7 @@
 {
-  "source_url": "https://www.youtube.com/watch?v=dQw4y9WgXcQ",
+  "source_url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
   "source_type": "youtube",
-  "pipeline_id": "dQw4y9WgXcQ-20260607T180029",
+  "pipeline_id": "kJQP7kiw5Fk-20260607T180046",
   "test_overrides": {
     "force_notebooklm_fallback": true
   },

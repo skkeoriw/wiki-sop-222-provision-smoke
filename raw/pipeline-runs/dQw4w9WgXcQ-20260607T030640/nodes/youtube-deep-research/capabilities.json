@@ -11,6 +11,31 @@
   "git": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "bfc7e80",
+    "commit_message": "chore: stage-b2 event [run:direct-youtube-deep-research-1780801605]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-youtube-deep-research-1780801605.jsonl",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/context.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/events.jsonl",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/wiki-build.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/wiki-build/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/wiki-build/capabilities.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/wiki-build/input.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/wiki-build/output.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/wiki-build/plan.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/wiki-build/state.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/youtube-deep-research.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/youtube-deep-research/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/youtube-deep-research/capabilities.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/youtube-deep-research/output.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/nodes/youtube-deep-research/state.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T030640/run.json"
+    ],
+    "finished_at": "2026-06-07T03:08:14Z",
+    "error": ""
   }
 }

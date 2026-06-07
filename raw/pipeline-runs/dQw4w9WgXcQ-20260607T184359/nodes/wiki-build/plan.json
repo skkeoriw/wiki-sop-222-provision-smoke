@@ -1,0 +1,479 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260607T184359",
+  "run_id": "direct-wiki-build-1780857851",
+  "selected_sources": [
+    {
+      "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster) 本地降级研究简报",
+      "slug": "rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "rick-astley.md",
+      "reason": "Rick Astley 是视频的作者和演唱者，是明确的实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "Never Gonna Give You Up 是视频的标题和核心内容，是明确的实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "YouTube 是一个非常泛泛的平台，不值得单独建页。",
+      "kind": "entitie",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "NotebookLM CLI 是报告中提到的工具，值得建页。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm.md",
+      "reason": "NotebookLM 是报告中提到的产品/工具，值得建页。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Blender Foundation",
+      "slug": "blender-foundation",
+      "action": "merge",
+      "importance_score": 0.5,
+      "merge_target": "blender-foundation.md",
+      "reason": "Blender Foundation 在现有 wiki 中存在，报告中未直接提及但可能与视频来源相关，合并以保持一致性。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "本地降级方案.md",
+      "reason": "本地降级方案是报告的核心主题之一，是重要的技术概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "fallback.md",
+      "reason": "fallback 是报告中提到的技术概念，与本地降级方案相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "YouTube 深度研究是报告中提到的研究方向，是重要的概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "notebooklm-research",
+      "slug": "notebooklm-research",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "notebooklm-research.md",
+      "reason": "notebooklm-research 是报告中提到的研究节点，是重要的概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "关系稳定性",
+      "slug": "关系稳定性",
+      "action": "merge",
+      "importance_score": 0.6,
+      "merge_target": "关系稳定性.md",
+      "reason": "关系稳定性是与视频内容（Rick Astley - Never Gonna Give You Up）相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感承诺",
+      "slug": "情感承诺",
+      "action": "merge",
+      "importance_score": 0.6,
+      "merge_target": "情感承诺与关系持久性深度简报：基于《Never Gonna Give You Up》文本分析.md",
+      "reason": "情感承诺是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "持久性",
+      "slug": "持久性",
+      "action": "merge",
+      "importance_score": 0.5,
+      "merge_target": "情感承诺与关系持久性深度简报：基于《Never Gonna Give You Up》文本分析.md",
+      "reason": "持久性是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚度",
+      "slug": "忠诚度",
+      "action": "merge",
+      "importance_score": 0.5,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "忠诚度是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "承诺",
+      "slug": "承诺",
+      "action": "merge",
+      "importance_score": 0.5,
+      "merge_target": "《Never Gonna Give You Up》：核心承诺与关系稳定性深度简报.md",
+      "reason": "承诺是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感忠诚",
+      "slug": "情感忠诚",
+      "action": "merge",
+      "importance_score": 0.5,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "情感忠诚是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "全方位承诺",
+      "slug": "全方位承诺",
+      "action": "merge",
+      "importance_score": 0.5,
+      "merge_target": "Rick Astley《Never Gonna Give You Up》核心主旨与情感承诺简报.md",
+      "reason": "全方位承诺是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期价值",
+      "slug": "长期价值",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "Rick Astley《Never Gonna Give You Up》核心主旨与情感承诺简报.md",
+      "reason": "长期价值是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任积累",
+      "slug": "信任积累",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "信任积累是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "言行一致",
+      "slug": "言行一致",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "《Never Gonna Give You Up》：核心承诺与关系稳定性深度简报.md",
+      "reason": "言行一致是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期承诺",
+      "slug": "长期承诺",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "情感承诺与关系持久性深度简报：基于《Never Gonna Give You Up》文本分析.md",
+      "reason": "长期承诺是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "连续性",
+      "slug": "连续性",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "连续性是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "可靠性",
+      "slug": "可靠性",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "可靠性是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "情感透明度是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "绝对忠诚观",
+      "slug": "绝对忠诚观",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "绝对忠诚观是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "完全承诺",
+      "slug": "完全承诺",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "Rick Astley《Never Gonna Give You Up》核心主旨与情感承诺简报.md",
+      "reason": "完全承诺是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "主动情感表达",
+      "slug": "主动情感表达",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "Rick Astley《Never Gonna Give You Up》核心主旨与情感承诺简报.md",
+      "reason": "主动情感表达是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "默契",
+      "slug": "默契",
+      "action": "merge",
+      "importance_score": 0.3,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "默契是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通延迟",
+      "slug": "沟通延迟",
+      "action": "merge",
+      "importance_score": 0.3,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "沟通延迟是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "诚实性",
+      "slug": "诚实性",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "诚实性是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任转化",
+      "slug": "信任转化",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "信任转化是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期积淀",
+      "slug": "长期积淀",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "长期积淀是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "差异化的承诺价值",
+      "slug": "差异化的承诺价值",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "Rick Astley《Never Gonna Give You Up》核心主旨与情感承诺简报.md",
+      "reason": "差异化的承诺价值是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "学习任何技能",
+      "slug": "学习任何技能",
+      "action": "merge",
+      "importance_score": 0.3,
+      "merge_target": "the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md",
+      "reason": "学习任何技能是与 Josh Kaufman 的 TED 演讲相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "20小时学习法",
+      "slug": "20小时学习法",
+      "action": "merge",
+      "importance_score": 0.5,
+      "merge_target": "the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md",
+      "reason": "20小时学习法是与 Josh Kaufman 的 TED 演讲相关的核心概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "感知与表达的鸿沟",
+      "slug": "感知与表达的鸿沟",
+      "action": "new",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "感知与表达的鸿沟是报告中提到的一个概念，但未在现有 wiki 中找到直接匹配。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "沟通的紧迫性",
+      "slug": "沟通的紧迫性",
+      "action": "new",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "沟通的紧迫性是报告中提到的一个概念，但未在现有 wiki 中找到直接匹配。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "行为边界",
+      "slug": "行为边界",
+      "action": "new",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "行为边界是报告中提到的一个概念，但未在现有 wiki 中找到直接匹配。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "六大核心保障条款",
+      "slug": "六大核心保障条款",
+      "action": "new",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "六大核心保障条款是报告中提到的一个概念，但未在现有 wiki 中找到直接匹配。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "全心投入",
+      "slug": "全心投入",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "Rick Astley《Never Gonna Give You Up》核心主旨与情感承诺简报.md",
+      "reason": "全心投入是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性忠诚",
+      "slug": "排他性忠诚",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "关于承诺与情感忠诚的深度分析报告：以《Never Gonna Give You Up》为核心.md",
+      "reason": "排他性忠诚是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "独特附加值",
+      "slug": "独特附加值",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "Rick Astley《Never Gonna Give You Up》核心主旨与情感承诺简报.md",
+      "reason": "独特附加值是与视频内容相关的概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "负面清单承诺",
+      "slug": "负面清单承诺",
+      "action": "new",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "负面清单承诺是报告中提到的一个概念，但未在现有 wiki 中找到直接匹配。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "逃避或遗弃",
+      "slug": "逃避或遗弃",
+      "action": "new",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "逃避或遗弃是报告中提到的一个概念，但未在现有 wiki 中找到直接匹配。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "情感保护",
+      "slug": "情感保护",
+      "action": "merge",
+      "importance_score": 0.4,
+      "merge_target": "情感保护.md",
+      "reason": "情感保护是报告中提到的一个概念，在现有 wiki 中有提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    }
+  ],
+  "estimated_llm_calls": 2,
+  "actual_llm_calls": 3,
+  "prompt_tokens": 2979,
+  "completion_tokens": 5352,
+  "generated_pages": [],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-07T18:44:37Z",
+  "generated_pages_count": 0
+}

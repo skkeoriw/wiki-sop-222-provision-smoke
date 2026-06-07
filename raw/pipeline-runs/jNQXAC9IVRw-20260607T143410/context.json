@@ -98,5 +98,28 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780842856"
+  "fallback_run_id": "direct-notebooklm-research-1780842856",
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780842860",
+    "start_time": "2026-06-07T14:34:21Z",
+    "end_time": "2026-06-07T14:34:40Z",
+    "duration_s": 18,
+    "llm_calls": 6,
+    "pages_created_total": 51,
+    "pages_new_this_run": 4,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/youtube-深度研究.md",
+      "wiki/entities/jawed.md",
+      "wiki/entities/me-at-the-zoo.md",
+      "wiki/sources/me-at-the-zoo-本地降级研究简报.md"
+    ],
+    "sources": 6,
+    "entities": 8,
+    "concepts": 37,
+    "comparisons": 0,
+    "prompt_tokens": 4077,
+    "completion_tokens": 4339,
+    "status": "success"
+  }
 }

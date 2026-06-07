@@ -9,9 +9,19 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/youtube-深度研究.md",
+      "wiki/entities/jawed.md",
+      "wiki/entities/me-at-the-zoo.md",
+      "wiki/sources/me-at-the-zoo-本地降级研究简报.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

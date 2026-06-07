@@ -1,0 +1,332 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260607T120830",
+  "run_id": "direct-wiki-build-1780834176",
+  "selected_sources": [
+    {
+      "title": "《Never Gonna Give You Up》：核心承诺与关系稳定性深度简报",
+      "slug": "never-gonna-give-you-up-核心承诺与关系稳定性深度简报"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [
+    {
+      "name": "全方位承诺",
+      "slug": "全方位承诺",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告中明确提出的核心概念，描述了一种深度、排他性的承诺。"
+    },
+    {
+      "name": "排他性忠诚",
+      "slug": "排他性忠诚",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告中强调的忠诚类型，与“绝对忠诚观”有重叠但更侧重于关系中的独占性。"
+    },
+    {
+      "name": "关系稳定性",
+      "slug": "关系稳定性",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告的核心分析主题，描述了维持人际关系持久性的状态。"
+    },
+    {
+      "name": "信任积累",
+      "slug": "信任积累",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到信任是长期过程，可以提炼为这一概念。"
+    },
+    {
+      "name": "言行一致",
+      "slug": "言行一致",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中强调所有行为决策的衡量标准是是否破坏信任，即言行一致。"
+    },
+    {
+      "name": "负面清单承诺",
+      "slug": "负面清单承诺",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中描述了通过“不做什么”来定义忠诚的策略，是一种特殊的承诺形式。"
+    },
+    {
+      "name": "逃避或遗弃",
+      "slug": "逃避或遗弃",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中描述了“不背弃”的行为准则，可以提炼为这一概念。"
+    },
+    {
+      "name": "主动情感表达",
+      "slug": "主动情感表达",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中建议克服沟通障碍，采取主动表达，是实现承诺的重要方式。"
+    },
+    {
+      "name": "长期价值",
+      "slug": "长期价值",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中强调了基于时间考验的关系质量，可以提炼为这一概念。"
+    },
+    {
+      "name": "沟通延迟",
+      "slug": "沟通延迟",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到的“害羞”和“盲目”是沟通延迟的表现，是关系推进的障碍。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "rick-astley.md",
+      "reason": "已存在于现有 wiki 清单中。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "已存在于现有 wiki 清单中。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感保护",
+      "slug": "情感保护",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感保护.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "可靠性",
+      "slug": "可靠性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "可靠性.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "连续性",
+      "slug": "连续性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "连续性.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "真实性",
+      "slug": "诚实性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "诚实性.md",
+      "reason": "报告中将“不欺骗”作为基石，与“诚实性”概念语义高度一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "默契",
+      "slug": "默契",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "默契.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通的紧迫性",
+      "slug": "沟通的紧迫性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "沟通的紧迫性.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感透明度.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行为边界",
+      "slug": "行为边界",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "行为边界.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感博弈",
+      "slug": "情感博弈",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中描述了双方参与的“游戏”，可以概括为情感博弈。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "认知对称",
+      "slug": "认知对称",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到双方对规则拥有共同认知，可以概括为认知对称。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "情感承诺",
+      "slug": "情感忠诚",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感忠诚.md",
+      "reason": "报告中关于承诺的讨论与“情感忠诚”概念高度相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期承诺",
+      "slug": "长期承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "长期承诺.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "全心投入",
+      "slug": "全心投入",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "全心投入.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "人际关系透明度",
+      "slug": "人际关系透明度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "人际关系透明度.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "感知与表达的鸿沟",
+      "slug": "感知与表达的鸿沟",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "感知与表达的鸿沟.md",
+      "reason": "已存在于现有 wiki 清单中，报告中提到的“害羞”和“盲目”可以看作是这一鸿沟的表现。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任转化",
+      "slug": "信任转化",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "信任转化.md",
+      "reason": "已存在于现有 wiki 清单中，报告中从模糊互动到明确关系的过程可以看作是信任的转化。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "持久性",
+      "slug": "持久性",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "持久性.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚度",
+      "slug": "忠诚度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "忠诚度.md",
+      "reason": "已存在于现有 wiki 清单中，并在报告中被提及。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "绝对忠诚观",
+      "slug": "绝对忠诚观",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "绝对忠诚观.md",
+      "reason": "已存在于现有 wiki 清单中，报告中强调的排他性忠诚与此概念相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期积淀",
+      "slug": "长期积淀",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "长期积淀.md",
+      "reason": "已存在于现有 wiki 清单中，报告中提到“认识彼此已经这么久了”暗示了长期积淀。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    }
+  ],
+  "estimated_llm_calls": 12,
+  "actual_llm_calls": 3,
+  "prompt_tokens": 3872,
+  "completion_tokens": 5648,
+  "generated_pages": [
+    "wiki/sources/never-gonna-give-you-up-核心承诺与关系稳定性深度简报.md",
+    "wiki/concepts/全方位承诺.md"
+  ],
+  "failed_pages": [],
+  "status": "running",
+  "updated_at": "2026-06-07T12:09:44Z"
+}

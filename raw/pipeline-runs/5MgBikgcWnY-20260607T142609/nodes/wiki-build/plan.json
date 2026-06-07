@@ -1,0 +1,145 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "5MgBikgcWnY-20260607T142609",
+  "run_id": "direct-wiki-build-1780842379",
+  "selected_sources": [
+    {
+      "title": "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU 本地降级研究简报",
+      "slug": "the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告中提到的工具，是本次分析的上下文，值得建页。"
+    },
+    {
+      "name": "Josh Kaufman",
+      "slug": "josh-kaufman",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "视频作者，值得单独建页。"
+    },
+    {
+      "name": "TEDxCSU",
+      "slug": "tedxcsu",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "视频的发布方，一个组织，值得建页。"
+    },
+    {
+      "name": "TEDx Talks",
+      "slug": "tedx-talks",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "视频的频道/作者，一个组织，值得建页。"
+    }
+  ],
+  "selected_concepts": [
+    {
+      "name": "学习任何技能",
+      "slug": "学习任何技能",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "视频的核心主题，是一个重要的概念。"
+    },
+    {
+      "name": "20小时学习法",
+      "slug": "20小时学习法",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "视频的核心方法论，是一个重要的概念。"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到的技术实现方案，是本次分析的上下文。"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到的工具组件，是本次分析的上下文。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "元数据",
+      "slug": "元数据",
+      "action": "merge",
+      "importance_score": 0.6,
+      "merge_target": "元数据.md",
+      "reason": "报告中提到的通用技术概念，与现有wiki中的元数据概念语义相同。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "研究材料",
+      "slug": "研究材料",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到的产物，是本次分析的上下文。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "深度研究",
+      "slug": "深度研究",
+      "action": "new",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中提到的研究方法，是本次分析的上下文。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    },
+    {
+      "name": "补充分析",
+      "slug": "补充分析",
+      "action": "new",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "报告中提到的分析类型，是本次分析的上下文。",
+      "kind": "concept",
+      "skip_reason": "below_importance_threshold"
+    }
+  ],
+  "estimated_llm_calls": 10,
+  "actual_llm_calls": 11,
+  "prompt_tokens": 8043,
+  "completion_tokens": 8475,
+  "generated_pages": [
+    "wiki/concepts/20小时学习法.md",
+    "wiki/concepts/notebooklm-cli.md",
+    "wiki/concepts/学习任何技能.md",
+    "wiki/concepts/本地降级方案.md",
+    "wiki/entities/josh-kaufman.md",
+    "wiki/entities/notebooklm.md",
+    "wiki/entities/tedx-talks.md",
+    "wiki/entities/tedxcsu.md",
+    "wiki/sources/the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md"
+  ],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-07T14:26:59Z",
+  "generated_pages_count": 9
+}

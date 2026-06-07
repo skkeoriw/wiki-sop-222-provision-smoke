@@ -93,5 +93,33 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780842375"
+  "fallback_run_id": "direct-notebooklm-research-1780842375",
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780842379",
+    "start_time": "2026-06-07T14:26:20Z",
+    "end_time": "2026-06-07T14:26:59Z",
+    "duration_s": 39,
+    "llm_calls": 11,
+    "pages_created_total": 47,
+    "pages_new_this_run": 9,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/20小时学习法.md",
+      "wiki/concepts/notebooklm-cli.md",
+      "wiki/concepts/学习任何技能.md",
+      "wiki/concepts/本地降级方案.md",
+      "wiki/entities/josh-kaufman.md",
+      "wiki/entities/notebooklm.md",
+      "wiki/entities/tedx-talks.md",
+      "wiki/entities/tedxcsu.md",
+      "wiki/sources/the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报.md"
+    ],
+    "sources": 5,
+    "entities": 6,
+    "concepts": 36,
+    "comparisons": 0,
+    "prompt_tokens": 8043,
+    "completion_tokens": 8475,
+    "status": "success"
+  }
 }

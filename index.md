@@ -1,21 +1,28 @@
 # YouTube Video Research Wiki
 Last updated: 2026-06-07
-Total pages: 4
+Total pages: 9
 
 ## Sources
 - [[never-gonna-give-you-up-核心承诺与关系稳定性深度简报]]
 - [[情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析]]
 - [[关于承诺与情感忠诚的深度分析报告-以-Never-Gonna-Give-You-Up-为核心]]
 - [[rick-astley-never-gonna-give-you-up-核心主旨与情感承诺简报]]
+- [[the-first-20-hours-how-to-learn-anything-josh-kaufman-tedxcsu-本地降级研究简报]]
 
 ## Entities
 - [[never-gonna-give-you-up]]
+- [[josh-kaufman]]
+- [[tedxcsu]]
 - [[rick-astley]]
+- [[notebooklm]]
+- [[tedx-talks]]
 
 ## Concepts
 - [[情感保护]]
 - [[感知与表达的鸿沟]]
 - [[沟通的紧迫性]]
+- [[本地降级方案]]
+- [[20小时学习法]]
 - [[信任积累]]
 - [[人际关系透明度]]
 - [[行为边界]]
@@ -25,6 +32,7 @@ Total pages: 4
 - [[排他性忠诚]]
 - [[长期价值]]
 - [[独特附加值]]
+- [[notebooklm-cli]]
 - [[忠诚度]]
 - [[关系稳定性]]
 - [[言行一致]]
@@ -45,5 +53,6 @@ Total pages: 4
 - [[信任转化]]
 - [[长期积淀]]
 - [[差异化的承诺价值]]
+- [[学习任何技能]]
 
 ## Mindmaps

@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "type": "text",
+      "text": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film",
+      "x": 0,
+      "y": 144,
+      "width": 280,
+      "height": 52,
+      "color": "6"
+    },
+    {
+      "id": "1",
+      "type": "text",
+      "text": "来源信息",
+      "x": 360,
+      "y": 36,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "text": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film",
+      "x": 680,
+      "y": 0,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "text": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+      "x": 680,
+      "y": 72,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "4",
+      "type": "text",
+      "text": "降级原因",
+      "x": 360,
+      "y": 144,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "text": "notebooklm create failed rc=1: HTTP 522: error code: 522",
+      "x": 680,
+      "y": 144,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "6",
+      "type": "text",
+      "text": "后续动作",
+      "x": 360,
+      "y": 252,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "7",
+      "type": "text",
+      "text": "继续 Stage C",
+      "x": 680,
+      "y": 216,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "8",
+      "type": "text",
+      "text": "需要时重试 NotebookLM",
+      "x": 680,
+      "y": 288,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1-2",
+      "fromNode": "1",
+      "toNode": "2",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-3",
+      "fromNode": "1",
+      "toNode": "3",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-1",
+      "fromNode": "0",
+      "toNode": "1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e4-5",
+      "fromNode": "4",
+      "toNode": "5",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-4",
+      "fromNode": "0",
+      "toNode": "4",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e6-7",
+      "fromNode": "6",
+      "toNode": "7",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e6-8",
+      "fromNode": "6",
+      "toNode": "8",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-6",
+      "fromNode": "0",
+      "toNode": "6",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

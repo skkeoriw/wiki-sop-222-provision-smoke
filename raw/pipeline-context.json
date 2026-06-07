@@ -34,7 +34,7 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-1780855319",
+  "fallback_run_id": "direct-notebooklm-research-1780855331",
   "stage_b_fetch": {
     "run_id": "direct-1780855326",
     "video_id": "aqz-KE-bpKQ",
@@ -46,10 +46,57 @@
     "meta_file": "raw/youtube-metadata/aqz-KE-bpKQ.json"
   },
   "stage_b": {
+    "run_id": "direct-notebooklm-research-1780855331",
+    "start_time": "2026-06-07T18:02:11Z",
+    "end_time": "2026-06-07T18:02:13Z",
+    "duration_s": 2,
+    "status": "success",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+        "success": true,
+        "notebook_id": "local-fallback",
+        "source_id": "local-cc6e07a97ff6",
+        "report_path": "/tmp/notebooklm_processor/aqz-KE-bpKQ_local-cc6e07a97ff6_20260607T180212Z_report.md",
+        "mindmap_path": "/tmp/notebooklm_processor/aqz-KE-bpKQ_local-cc6e07a97ff6_20260607T180212Z_mindmap.json",
+        "error": null
+      }
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/Big-Buck-Bunny-60fps-4K-Official-Blender.md",
+      "raw/notebooklm-mindmaps/Big-Buck-Bunny-60fps-4K-Official-Blender.json",
+      "wiki/canvas/Big-Buck-Bunny-60fps-4K-Official-Blender.canvas"
+    ],
+    "generated_files": [
+      {
+        "type": "report",
+        "path": "/tmp/notebooklm_processor/aqz-KE-bpKQ_local-cc6e07a97ff6_20260607T180212Z_report.md",
+        "source_id": "local-cc6e07a97ff6",
+        "language": "zh_Hans"
+      },
+      {
+        "type": "mind-map",
+        "path": "/tmp/notebooklm_processor/aqz-KE-bpKQ_local-cc6e07a97ff6_20260607T180212Z_mindmap.json",
+        "source_id": "local-cc6e07a97ff6",
+        "language": "zh_Hans"
+      }
+    ],
     "source_metadata": {
+      "video_id": "aqz-KE-bpKQ",
       "title": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film",
+      "author": "Blender",
+      "published_at": "2014-11-10T14:05:55Z",
       "youtube_url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-      "author": "Blender"
+      "thumbnail": "https://i.ytimg.com/vi/aqz-KE-bpKQ/hqdefault.jpg",
+      "source_type": "youtube"
+    },
+    "fallback": {
+      "used": true,
+      "mode": "local-metadata",
+      "reason": "forced notebooklm fallback"
     }
   }
 }

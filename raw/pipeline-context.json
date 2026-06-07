@@ -42,10 +42,61 @@
     "meta_file": "raw/youtube-metadata/kJQP7kiw5Fk.json"
   },
   "stage_b": {
+    "run_id": "direct-notebooklm-research-1780855252",
+    "start_time": "2026-06-07T18:00:53Z",
+    "end_time": "2026-06-07T18:00:54Z",
+    "duration_s": 1,
+    "status": "success",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+        "success": true,
+        "notebook_id": "local-fallback",
+        "source_id": "local-18b2acf4caf1",
+        "report_path": "/tmp/notebooklm_processor/kJQP7kiw5Fk_local-18b2acf4caf1_20260607T180054Z_report.md",
+        "mindmap_path": "/tmp/notebooklm_processor/kJQP7kiw5Fk_local-18b2acf4caf1_20260607T180054Z_mindmap.json",
+        "error": null
+      }
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/Luis-Fonsi-Despacito-ft-Daddy-Yankee-本地降.md",
+      "raw/notebooklm-mindmaps/Luis-Fonsi-Despacito-ft-Daddy-Yankee-本地降.json",
+      "wiki/canvas/Luis-Fonsi-Despacito-ft-Daddy-Yankee-本地降.canvas"
+    ],
+    "generated_files": [
+      {
+        "type": "report",
+        "path": "/tmp/notebooklm_processor/kJQP7kiw5Fk_local-18b2acf4caf1_20260607T180054Z_report.md",
+        "source_id": "local-18b2acf4caf1",
+        "language": "zh_Hans"
+      },
+      {
+        "type": "mind-map",
+        "path": "/tmp/notebooklm_processor/kJQP7kiw5Fk_local-18b2acf4caf1_20260607T180054Z_mindmap.json",
+        "source_id": "local-18b2acf4caf1",
+        "language": "zh_Hans"
+      }
+    ],
     "source_metadata": {
+      "video_id": "kJQP7kiw5Fk",
       "title": "Luis Fonsi - Despacito ft. Daddy Yankee",
+      "author": "LuisFonsiVEVO",
+      "published_at": "2017-01-13T05:00:02Z",
       "youtube_url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
-      "author": "LuisFonsiVEVO"
+      "thumbnail": "https://i.ytimg.com/vi/kJQP7kiw5Fk/hqdefault.jpg",
+      "source_type": "youtube"
+    },
+    "fallback": {
+      "used": true,
+      "mode": "local-metadata",
+      "reason": "forced notebooklm fallback"
     }
-  }
+  },
+  "fallback_used": true,
+  "fallback_mode": "local-metadata",
+  "fallback_reason": "forced notebooklm fallback",
+  "fallback_run_id": "direct-notebooklm-research-1780855252"
 }

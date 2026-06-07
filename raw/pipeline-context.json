@@ -1,7 +1,7 @@
 {
-  "source_url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
+  "source_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
   "source_type": "youtube",
-  "pipeline_id": "5MgBikgcWnY-20260607T142609",
+  "pipeline_id": "jNQXAC9IVRw-20260607T143410",
   "test_overrides": {
     "force_notebooklm_fallback": true
   },
@@ -30,25 +30,5 @@
     },
     "chunks_total": 4,
     "chunks_done": 4
-  },
-  "stage_b_fetch": {
-    "run_id": "direct-1780842371",
-    "video_id": "5MgBikgcWnY",
-    "title": "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU",
-    "author": "TEDx Talks",
-    "published_at": "2013-03-14T17:17:26Z",
-    "youtube_url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
-    "thumbnail": "https://i.ytimg.com/vi/5MgBikgcWnY/hqdefault.jpg",
-    "meta_file": "raw/youtube-metadata/5MgBikgcWnY.json"
-  },
-  "stage_b": {
-    "source_metadata": {
-      "title": "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU",
-      "youtube_url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
-      "author": "TEDx Talks"
-    },
-    "output_files": [
-      "raw/notebooklm-analysis/The-first-20-hours----how-to-learn-anything-Josh-Kaufman-TEDxCSU-youtube-deep-research.md"
-    ]
   }
 }

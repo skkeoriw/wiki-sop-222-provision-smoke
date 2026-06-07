@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage D 完成  12s  [aqz-KE-bpKQ-20260607T183410]\n   📢 Telegram 通知\n   🎬 Big Buck Bunny 60fps 4K - Official Blender Foundation Short ",
+    "sent_at": "2026-06-07T18:34:34Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

@@ -9,9 +9,19 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/六大核心保障条款.md",
+      "wiki/concepts/差异化的承诺价值.md",
+      "wiki/concepts/独特附加值.md",
+      "wiki/sources/情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

@@ -2,16 +2,16 @@
   "pipeline_id": "dQw4w9WgXcQ-20260607T141527",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780841788",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-07T14:16:28Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-07T14:16:59Z",
+  "duration_s": 31,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -40,7 +40,9 @@
     "reports": [
       "raw/notebooklm-analysis/情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-U.md"
     ],
-    "deep_research": []
+    "deep_research": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T141527/analysis.md"
+    ]
   },
   "declared_outputs": {
     "index": {
@@ -52,16 +54,98 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/六大核心保障条款.md",
+      "wiki/concepts/差异化的承诺价值.md",
+      "wiki/concepts/独特附加值.md",
+      "wiki/sources/情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 1174,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "79c40893c97d0680",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/六大核心保障条款.md",
+      "title": "六大核心保障条款.md",
+      "size": 3972,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "b995efba8e3a7a74",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/差异化的承诺价值.md",
+      "title": "差异化的承诺价值.md",
+      "size": 4337,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "b3db02f5029cce48",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/独特附加值.md",
+      "title": "独特附加值.md",
+      "size": 3956,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "8843c2619675fb38",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析.md",
+      "title": "情感承诺与关系持久性深度简报-基于-Never-Gonna-Give-You-Up-文本分析.md",
+      "size": 5263,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "notebooklm-research"
+    "duration_s": 31,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T14:16:28Z"
+  "updated_at": "2026-06-07T14:16:59Z"
 }

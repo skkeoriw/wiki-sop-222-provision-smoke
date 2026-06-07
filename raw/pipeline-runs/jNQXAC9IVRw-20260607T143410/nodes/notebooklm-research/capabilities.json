@@ -1,0 +1,31 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "✅ Stage B 完成  2s  [jNQXAC9IVRw-20260607T143410]\n   🔬 NotebookLM 研究\n   📄 Me-at-the-zoo-本地降级研究简报\n   📦 raw/notebooklm-analysis + raw/notebooklm-mindmaps + wiki/canvas\n   🎬 Me at the zoo",
+    "sent_at": "2026-06-07T14:34:19Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-222-provision-smoke",
+    "commit": "3209652",
+    "commit_message": "chore: stage-b done [pipe:jNQXAC9IVRw-20260607T143410] [run:direct-notebooklm-research-1780842856]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-notebooklm-research-1780842856.jsonl",
+      "logs/stage-events/direct-youtube-deep-research-1780842856.jsonl",
+      "\"raw/notebooklm-analysis/Me-at-the-zoo-\\346\\234\\254\\345\\234\\260\\351\\231\\215\\347\\272\\247\\347\\240\\224\\347\\251\\266\\347\\256\\200\\346\\212\\245.md\"",
+      "\"raw/notebooklm-mindmaps/Me-at-the-zoo-\\346\\234\\254\\345\\234\\260\\351\\231\\215\\347\\272\\247\\347\\240\\224\\347\\251\\266\\347\\256\\200\\346\\212\\245.json\"",
+      "\"raw/notebooklm-mindmaps/Me-at-the-zoo-\\346\\234\\254\\345\\234\\260\\351\\231\\215\\347\\272\\247\\347\\240\\224\\347\\251\\266\\347\\256\\200\\346\\212\\245.md\"",
+      "raw/pipeline-context.json",
+      "\"wiki/canvas/Me-at-the-zoo-\\346\\234\\254\\345\\234\\260\\351\\231\\215\\347\\272\\247\\347\\240\\224\\347\\251\\266\\347\\256\\200\\346\\212\\245.canvas\""
+    ],
+    "finished_at": "2026-06-07T14:34:18Z",
+    "error": ""
+  }
+}

@@ -34,7 +34,7 @@
   "fallback_used": true,
   "fallback_mode": "local-metadata",
   "fallback_reason": "forced notebooklm fallback",
-  "fallback_run_id": "direct-notebooklm-research-dQw4w9WgXcQ-20260608T065914-1780901960312322640",
+  "fallback_run_id": "direct-notebooklm-research-dQw4w9WgXcQ-20260608T081619-1780906586331503803",
   "stage_b_fetch": {
     "run_id": "direct-1780906581581053135",
     "video_id": "dQw4w9WgXcQ",
@@ -46,10 +46,58 @@
     "meta_file": "raw/youtube-metadata/dQw4w9WgXcQ.json"
   },
   "stage_b": {
+    "run_id": "direct-notebooklm-research-dQw4w9WgXcQ-20260608T081619-1780906586331503803",
+    "start_time": "2026-06-08T08:16:26Z",
+    "end_time": "2026-06-08T08:17:08Z",
+    "duration_s": 42,
+    "status": "success",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "success": true,
+        "notebook_id": "local-fallback",
+        "source_id": "local-f2ad3a6f51a9",
+        "report_path": "/tmp/notebooklm_processor/dQw4w9WgXcQ_local-f2ad3a6f51a9_20260608T081708Z_report.md",
+        "mindmap_path": "/tmp/notebooklm_processor/dQw4w9WgXcQ_local-f2ad3a6f51a9_20260608T081708Z_mindmap.json",
+        "error": null
+      }
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/Rick_Astley_Never_Gonna_Give_You_Up_Offi_dQw4w9WgXcQ--dQw4w9WgXcQ-20260608.md",
+      "raw/notebooklm-mindmaps/Rick_Astley_Never_Gonna_Give_You_Up_Offi_dQw4w9WgXcQ--dQw4w9WgXcQ-20260608.json",
+      "wiki/canvas/Rick_Astley_Never_Gonna_Give_You_Up_Offi_dQw4w9WgXcQ--dQw4w9WgXcQ-20260608--dQw4w9WgXcQ-20260608.canvas",
+      "raw/notebooklm-mindmaps/Rick_Astley_Never_Gonna_Give_You_Up_Offi_dQw4w9WgXcQ--dQw4w9WgXcQ-20260608--dQw4w9WgXcQ-20260608.md"
+    ],
+    "generated_files": [
+      {
+        "type": "report",
+        "path": "/tmp/notebooklm_processor/dQw4w9WgXcQ_local-f2ad3a6f51a9_20260608T081708Z_report.md",
+        "source_id": "local-f2ad3a6f51a9",
+        "language": "zh_Hans"
+      },
+      {
+        "type": "mind-map",
+        "path": "/tmp/notebooklm_processor/dQw4w9WgXcQ_local-f2ad3a6f51a9_20260608T081708Z_mindmap.json",
+        "source_id": "local-f2ad3a6f51a9",
+        "language": "zh_Hans"
+      }
+    ],
     "source_metadata": {
+      "video_id": "dQw4w9WgXcQ",
       "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+      "author": "Rick Astley",
+      "published_at": "2009-10-25T06:57:33Z",
       "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "author": "Rick Astley"
+      "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+      "source_type": "youtube"
+    },
+    "fallback": {
+      "used": true,
+      "mode": "local-metadata",
+      "reason": "forced notebooklm fallback"
     }
   }
 }

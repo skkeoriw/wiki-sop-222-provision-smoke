@@ -1,0 +1,549 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260608T065914",
+  "run_id": "direct-wiki-build-dQw4w9WgXcQ-20260608T065914-1780902009051316013",
+  "selected_sources": [
+    {
+      "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster) 本地降级研究简报",
+      "slug": "rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "rick-astley.md",
+      "reason": "视频作者，已存在实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "视频标题，已存在实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "skip",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "平台名称，过于泛泛，不单独建页。",
+      "kind": "entitie",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm.md",
+      "reason": "提及的工具，已存在实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Blender Foundation",
+      "slug": "blender-foundation",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "blender-foundation.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Big Buck Bunny",
+      "slug": "big-buck-bunny",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "big-buck-bunny.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Luis Fonsi",
+      "slug": "luis-fonsi",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "luis-fonsi.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Daddy Yankee",
+      "slug": "daddy-yankee",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "daddy-yankee.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "PSY",
+      "slug": "psy",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "psy.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Me at the zoo",
+      "slug": "me-at-the-zoo",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "me-at-the-zoo.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Josh Kaufman",
+      "slug": "josh-kaufman",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "josh-kaufman.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "TEDxCSU",
+      "slug": "tedxcsu",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "tedxcsu.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "本地降级方案.md",
+      "reason": "报告中明确提及的方案，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "fallback.md",
+      "reason": "技术术语，表示备用方案，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "提及的工具接口，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "提及的研究方向，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "20小时学习法",
+      "slug": "20小时学习法",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "20小时学习法.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感承诺",
+      "slug": "情感承诺",
+      "action": "skip",
+      "importance_score": 0.6,
+      "merge_target": null,
+      "reason": "报告中未直接提及，但与《Never Gonna Give You Up》相关分析主题有关，但此处不直接提取。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "关系稳定性",
+      "slug": "关系稳定性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "关系稳定性.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任积累",
+      "slug": "信任积累",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "信任积累.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "人际关系透明度",
+      "slug": "人际关系透明度",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "人际关系透明度.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行为边界",
+      "slug": "行为边界",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "行为边界.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "六大核心保障条款",
+      "slug": "六大核心保障条款",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "六大核心保障条款.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "全方位承诺",
+      "slug": "全方位承诺",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "全方位承诺.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "全心投入",
+      "slug": "全心投入",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "全心投入.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性忠诚",
+      "slug": "排他性忠诚",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "排他性忠诚.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期价值",
+      "slug": "长期价值",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "长期价值.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "独特附加值",
+      "slug": "独特附加值",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "独特附加值.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚度",
+      "slug": "忠诚度",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "忠诚度.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "言行一致",
+      "slug": "言行一致",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "言行一致.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期承诺",
+      "slug": "长期承诺",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "长期承诺.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "持久性",
+      "slug": "持久性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "持久性.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "负面清单承诺",
+      "slug": "负面清单承诺",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "负面清单承诺.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "逃避或遗弃",
+      "slug": "逃避或遗弃",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "逃避或遗弃.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "连续性",
+      "slug": "连续性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "连续性.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "可靠性",
+      "slug": "可靠性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "可靠性.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "情感透明度.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "绝对忠诚观",
+      "slug": "绝对忠诚观",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "绝对忠诚观.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感忠诚",
+      "slug": "情感忠诚",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "情感忠诚.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "完全承诺",
+      "slug": "完全承诺",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "完全承诺.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "主动情感表达",
+      "slug": "主动情感表达",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "主动情感表达.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "默契",
+      "slug": "默契",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "默契.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通延迟",
+      "slug": "沟通延迟",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "沟通延迟.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "诚实性",
+      "slug": "诚实性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "诚实性.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任转化",
+      "slug": "信任转化",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "信任转化.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期积淀",
+      "slug": "长期积淀",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "长期积淀.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "差异化的承诺价值",
+      "slug": "差异化的承诺价值",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "差异化的承诺价值.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "学习任何技能",
+      "slug": "学习任何技能",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "学习任何技能.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "感知与表达的鸿沟",
+      "slug": "感知与表达的鸿沟",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "感知与表达的鸿沟.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通的紧迫性",
+      "slug": "沟通的紧迫性",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "沟通的紧迫性.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感保护",
+      "slug": "情感保护",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "情感保护.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "notebooklm-research",
+      "slug": "notebooklm-research",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "notebooklm-research.md",
+      "reason": "在现有 wiki 清单中存在，但报告中未直接提及，可能为背景信息。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    }
+  ],
+  "estimated_llm_calls": 2,
+  "actual_llm_calls": 3,
+  "prompt_tokens": 3116,
+  "completion_tokens": 5611,
+  "generated_pages": [],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-08T07:00:27Z",
+  "generated_pages_count": 0
+}

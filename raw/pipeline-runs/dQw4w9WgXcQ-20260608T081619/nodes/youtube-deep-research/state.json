@@ -2,13 +2,13 @@
   "pipeline_id": "dQw4w9WgXcQ-20260608T081619",
   "node_id": "youtube-deep-research",
   "run_id": "direct-youtube-deep-research-dQw4w9WgXcQ-20260608T081619-1780906586357836522",
-  "status": "running",
+  "status": "failed",
   "mode": "sidecar",
   "needs": [
     "youtube-fetch"
   ],
   "started_at": "2026-06-08T08:16:26Z",
-  "finished_at": "",
+  "finished_at": "2026-06-08T08:36:36Z",
   "duration_s": 0,
   "attempt": 2,
   "progress": 0,
@@ -26,6 +26,6 @@
   "extra": {
     "started_by": "youtube-fetch"
   },
-  "error": "",
-  "updated_at": "2026-06-08T08:16:27Z"
+  "error": "youtube_deep_research exited 1",
+  "updated_at": "2026-06-08T08:36:36Z"
 }

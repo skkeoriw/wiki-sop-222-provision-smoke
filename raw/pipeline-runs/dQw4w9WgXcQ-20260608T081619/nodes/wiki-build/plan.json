@@ -1,0 +1,230 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260608T081619",
+  "run_id": "direct-wiki-build-dQw4w9WgXcQ-20260608T081619-1780906632234577688",
+  "selected_sources": [
+    {
+      "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster) 本地降级研究简报",
+      "slug": "rick-astley-never-gonna-give-you-up-official-video-4k-remaster-本地降级研究简报"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [
+    {
+      "name": "4K Remaster",
+      "slug": "4k-remaster",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "视频的修复/增强技术，值得单独建页。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "rick-astley.md",
+      "reason": "视频作者，已存在实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "视频标题，已存在实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "action": "skip",
+      "importance_score": 0.5,
+      "merge_target": null,
+      "reason": "平台名称，过于泛泛，不单独建页。",
+      "kind": "entitie",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "notebooklm.md",
+      "reason": "分析工具，已存在实体。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Blender Foundation",
+      "slug": "blender-foundation",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "blender-foundation.md",
+      "reason": "提及的组织，已存在概念，但此处作为组织提及，可合并。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "本地降级方案",
+      "slug": "本地降级方案",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "本地降级方案.md",
+      "reason": "报告中明确提及的方案，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "fallback",
+      "slug": "fallback",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "fallback.md",
+      "reason": "技术术语，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "NotebookLM CLI",
+      "slug": "notebooklm-cli",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "notebooklm-cli.md",
+      "reason": "工具组件，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "YouTube 深度研究",
+      "slug": "youtube-深度研究",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "youtube-深度研究.md",
+      "reason": "研究类型，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "元数据",
+      "slug": "元数据",
+      "action": "skip",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "通用技术术语，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "研究材料",
+      "slug": "研究材料",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "通用术语，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Wiki 构建",
+      "slug": "wiki-构建",
+      "action": "skip",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "流程性描述，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "节点产物",
+      "slug": "节点产物",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "流程性描述，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Git/TG/SPI/UI 验收链路",
+      "slug": "git-tg-spi-ui-验收链路",
+      "action": "skip",
+      "importance_score": 0.4,
+      "merge_target": null,
+      "reason": "流程性描述，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Stage B 产物",
+      "slug": "stage-b-产物",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "流程性描述，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Stage C 产物",
+      "slug": "stage-c-产物",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "流程性描述，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "Stage A 已获取的元数据",
+      "slug": "stage-a-已获取的元数据",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "流程性描述，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    },
+    {
+      "name": "notebooklm-research",
+      "slug": "notebooklm-research",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "notebooklm-research.md",
+      "reason": "研究节点，已存在概念。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "B2 的补充分析",
+      "slug": "b2-的补充分析",
+      "action": "skip",
+      "importance_score": 0.3,
+      "merge_target": null,
+      "reason": "流程性描述，不单独建页。",
+      "kind": "concept",
+      "skip_reason": "action_skip"
+    }
+  ],
+  "estimated_llm_calls": 3,
+  "actual_llm_calls": 4,
+  "prompt_tokens": 3901,
+  "completion_tokens": 3830,
+  "generated_pages": [
+    "wiki/concepts/4k-remaster.md"
+  ],
+  "failed_pages": [],
+  "status": "done",
+  "updated_at": "2026-06-08T08:17:29Z",
+  "generated_pages_count": 1
+}

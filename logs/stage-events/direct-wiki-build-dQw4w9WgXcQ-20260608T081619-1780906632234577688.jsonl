@@ -1,2 +1,6 @@
 {"ts": "2026-06-08T08:17:12Z", "event": "stage_start", "stage": "wiki-build", "pipeline": "youtube-research-wiki"}
 {"ts": "2026-06-08T08:17:30Z", "event": "stage_done", "stage": "wiki-build", "pipeline": "youtube-research-wiki", "duration_s": 18}
+{"ts": "2026-06-08T08:17:32Z", "event": "tg_notify_sent", "stage": "tg-notify", "trigger": "start", "ok": true}
+{"ts": "2026-06-08T08:17:32Z", "event": "stage_start", "stage": "tg-notify", "pipeline": "youtube-research-wiki", "note": "final summary stage"}
+{"ts": "2026-06-08T08:17:33Z", "event": "tg_notify_sent", "stage": "tg-notify", "trigger": "done", "ok": true}
+{"ts": "2026-06-08T08:17:33Z", "event": "stage_done", "stage": "tg-notify", "pipeline": "youtube-research-wiki", "duration_s": 21}

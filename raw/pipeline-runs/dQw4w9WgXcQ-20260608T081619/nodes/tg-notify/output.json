@@ -1,0 +1,18 @@
+{
+  "declared_outputs": {
+    "telegram_message": {
+      "path": "logs/pipeline-runs/pipe-{run_id}.json",
+      "type": "file"
+    }
+  },
+  "actual_outputs": {
+    "telegram_message": []
+  },
+  "validation": {
+    "status": "warning",
+    "missing_outputs": [
+      "telegram_message"
+    ],
+    "unexpected_outputs": []
+  }
+}

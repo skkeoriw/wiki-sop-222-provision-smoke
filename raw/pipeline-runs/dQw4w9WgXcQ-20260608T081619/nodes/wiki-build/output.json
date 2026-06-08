@@ -9,9 +9,16 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/4k-remaster.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

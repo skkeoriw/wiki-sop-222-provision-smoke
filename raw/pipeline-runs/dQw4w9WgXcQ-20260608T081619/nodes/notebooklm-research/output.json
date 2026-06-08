@@ -1,0 +1,26 @@
+{
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/Rick_Astley_Never_Gonna_Give_You_Up_Offi_dQw4w9WgXcQ--dQw4w9WgXcQ-20260608.md"
+    ],
+    "mindmaps": [
+      "raw/notebooklm-mindmaps/Rick_Astley_Never_Gonna_Give_You_Up_Offi_dQw4w9WgXcQ--dQw4w9WgXcQ-20260608.json",
+      "raw/notebooklm-mindmaps/Rick_Astley_Never_Gonna_Give_You_Up_Offi_dQw4w9WgXcQ--dQw4w9WgXcQ-20260608--dQw4w9WgXcQ-20260608.md"
+    ]
+  },
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  }
+}
